@@ -1,6 +1,9 @@
 /* FONTS */
 
 /* open-sans-300 - latin */
+.andre{
+	font-style: normal;
+}
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
