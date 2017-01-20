@@ -231,7 +231,8 @@ blockquote:after {
 }
 
 #HeadlineZielgruppe {
-	background-image: url("../img/DokuTitel/HeadlineZielgruppe.png");
+	margin-top:35px;
+	background-image: url("../img/DokuTitel/title-Zielgruppe.png");
 }
 .space-40 {
 	margin-top: 40px;

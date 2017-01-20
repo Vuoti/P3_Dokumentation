@@ -171,12 +171,14 @@
 }
 
 /* Button on photostack container */
-
 .js .photostack::after {
-	content: 'View Gallery';
-	font-weight: 400;
+	transition: opacity 0.3s;
+	content: 'Lust auf einen kleinen Ausflug ?';
+	font-size: 16px;
+	font-weight: 700;
 	position: absolute;
-	border: 3px solid #fff;
+	border: 3px solid #feb904;
+	background-color: rgba(0,0,0,0.2);
 	text-align: center;
 	white-space: nowrap;
 	left: 50%;
@@ -184,9 +186,9 @@
 	-webkit-transform: translateY(-50%) translateX(-50%);
 	transform: translateY(-50%) translateX(-50%);
 	padding: 10px 20px;
-	color: #fff;
+	color: #feb904;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 3px;
 	cursor: pointer;
 	z-index: 101;
 }
@@ -278,7 +280,7 @@ figure.photostack-current::after {
 /* Since we don't have back sides for the first photo stack, we don't want the current dot to become too big */
 
 #photostack-1 nav span.current {
-	background: #888;
+	background: #feb904;
 	-webkit-transform: scale(0.61);
 	transform: scale(0.61);
 }

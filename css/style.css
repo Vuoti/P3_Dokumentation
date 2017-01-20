@@ -472,3 +472,13 @@ button:focus {
 	padding-bottom: 0px;
 	width: 100px;
 }
+
+.textCenter{
+	text-align: center;
+}
+
+.boxy{
+	border: 1px solid #e5e5e5;
+	padding: 140px 80px 80px 80px;
+	margin-top: -100px;
+}
