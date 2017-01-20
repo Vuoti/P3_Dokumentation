@@ -478,6 +478,24 @@ button:focus {
 
 .boxy{
 	border: 1px solid #e5e5e5;
-	padding: 140px 80px 80px 80px;
+	padding: 80px;
+}
+.steckbriefHanna{
+	padding-top: 140px;
 	margin-top: -100px;
+}
+
+.pinselBg{
+	width: 100%;
+	padding: 60px 0px;
+	background-image: url("../img/container.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.textOverlay{
+	margin-top: 170px;
+	margin-left: 230px;
+	position: absolute;
+	width: 1140px;
 }
