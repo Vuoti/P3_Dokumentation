@@ -485,10 +485,20 @@ button:focus {
 	margin-top: -100px;
 }
 
+.bikeBg{
+	width: 100%;
+	padding: 60px 0px;
+	background-image: url("../img/fahrrad.jpg");
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 .pinselBg{
 	width: 100%;
 	padding: 60px 0px;
 	background-image: url("../img/container.png");
+	background-size: 100% 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
