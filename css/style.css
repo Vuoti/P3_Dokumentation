@@ -141,12 +141,12 @@ h2 {
 	color: #9e9e9e;
 	margin-top: 0px;
 }
-a {
+.link {
 	color: inherit;
 	text-decoration: none;
 	border-bottom: 1px solid #e5e5e5;
 }
-a:after {
+.link:after {
 	content: "";
 	display: inline-block;
 	background: url("../img/icon-link.png") no-repeat top right;
@@ -157,7 +157,7 @@ a:after {
 a:hover {
 	color: #feb904;
 }
-a:hover:after {
+.link:hover:after {
 	background: url("../img/icon-link.png") no-repeat top right;
 }
 .author {
@@ -508,4 +508,13 @@ button:focus {
 	margin-left: 230px;
 	position: absolute;
 	width: 1140px;
+}
+
+ul{
+	font-family: "Open Sans";
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 36px;
+	color: #9e9e9e;
+	transition: all 0.5s;
 }
