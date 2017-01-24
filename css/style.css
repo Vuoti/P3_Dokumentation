@@ -252,6 +252,9 @@ blockquote:after {
 	margin-top: 40px;
 	background-image: url("../img/DokuTitel/title-firstSteps.png");
 }
+#title-AddOne {
+	background-image: url("../img/DokuTitel/title-Add-One.png");
+}
 .space-40 {
 	margin-top: 40px;
 }
