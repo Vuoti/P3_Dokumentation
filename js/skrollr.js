@@ -1,6 +1,6 @@
 var frameNumber = 0, // start video at frame 0
   // lower numbers = faster playback
-  playbackConst = 500,
+  playbackConst = 1000,
   // get page height from video duration
   setHeight = document.getElementById("set-height"),
   // select video element
