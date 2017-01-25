@@ -192,6 +192,7 @@ blockquote:before {
 blockquote:after {
 	content: close-quote;
 }
+
 .quote:before {
 	content: '';
 	display: block;
