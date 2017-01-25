@@ -22,18 +22,36 @@
 #title-die-vision {
 	background-image: url("../img/DokuTitel/title-die-vision.png");
 }
+
+#title-unser-system {
+	background-image: url("../img/DokuTitel/title-unser-system.png");
+	margin-top: 35px;
+}
+
 .containerMeki {
 	background-image: url(../img/container.png);
 	margin: 25pt;
 	padding: 30pt;
-	background-size: cover;
+	background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 .containerMeki_2 {
 	background-image: url(../img/container_2.png);
 	margin: 25pt;
 	padding: 30pt;
-	background-size: cover;
+	background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 .space-40 {
 	margin-top: 40px;
+}
+
+#pic-ausleihprozess {
+	margin: auto;
+	display: block;
+	width: 100%;
 }
