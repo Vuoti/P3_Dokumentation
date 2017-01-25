@@ -119,11 +119,11 @@ body {
 	color: #a5a5a5;
 	position: absolute;
 	margin: 0px;
-	/*top: 225px;*/
+	top: 225px;
 	width: 100%;
 }
 .subline-fullscreen {
-	margin: -34px auto;
+	margin: 240px auto;
 }
 p {
 	font-family: "Open Sans";
