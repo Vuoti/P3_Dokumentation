@@ -522,3 +522,9 @@ ul{
 	color: #9e9e9e;
 	transition: all 0.5s;
 }
+
+.honeycomb{
+	width: 80%;
+	position: absolute;
+	margin-top: 0px;
+}
