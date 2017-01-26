@@ -50,8 +50,40 @@
 	margin-top: 40px;
 }
 
-#pic-ausleihprozess {
+#pictures {
 	margin: auto;
 	display: block;
 	width: 100%;
+}
+
+#pic_getraenkeaufsicht {
+	float: left;
+	width: 60%;
+}
+
+#technische_skizzen {
+width: 120%;
+margin: auto;
+display: block;
+}
+
+#grillgut_ansicht {
+	width: 70%;
+	margin: auto;
+	display: block;
+}
+
+#flasche {
+	float: right;
+}
+
+#abschliessbares_fach_1 {
+	float: right;
+	width: 50%;
+}
+
+#technische_skizzen_grill {
+	width: 70%;
+	display:block;
+	margin: auto;
 }
