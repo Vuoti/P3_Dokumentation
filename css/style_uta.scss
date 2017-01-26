@@ -1,0 +1,71 @@
+
+  .item p{
+  margin: 20px;
+}
+.slide{
+    width: 100%;
+  }
+  .carousel-indicators {
+      position: absolute;
+      bottom: 10px;
+      left: 0%;
+      top: 0;
+      z-index: 15;
+      width: 100%;
+       padding-left: 0;
+       margin-left: 0%;
+      text-align: center;
+      list-style: none;
+  }
+
+.carousel-inner{
+  margin: 50px;
+}
+.carousel-inner .item{
+  padding: 0 250px;
+}
+
+.slider-bg{
+background-color:#f8f8f8;
+}
+
+.gmodel .mainContent{
+  margin-bottom: 20px;
+}
+
+.carousel-indicators li {
+    background-color: #9e9e9e;
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    margin: 0px;
+    border-radius: 0px;
+    top: 0;
+    text-indent: 0px;
+    margin-right: 10px;
+    color: #f8f8f8!important;
+}
+
+//Tabs
+.carousel-indicators li :hover {
+  background-color: #feb904 !important;
+}
+
+.carousel-indicators .active {
+  width: 140px;
+  height: 50px;
+    margin: 0;
+    background-color: #f8f8f8;
+    margin-right: 10px;
+    border-color: #f8f8f8;
+}
+
+.carousel-indicators li p:hover{
+font-size: 16px;
+padding-top: 7px;
+}
+.carousel-indicators li p{
+  color: #f8f8f8;
+  font-size: 18px;
+  padding-top: 5px;
+}
