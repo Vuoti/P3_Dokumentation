@@ -1,0 +1,33 @@
+#set-height {
+  display: block;
+  height: 13500px;
+}
+#v0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+#time {
+  position: fixed;
+  display: block;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  background-color: rgba(0,0,255,0.5);
+}
+#scroll {
+  position: fixed;
+  display: block;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  background-color: rgba(255,0,0,0.5);
+}
