@@ -7,7 +7,9 @@
 	<link href="css/normalize.css" rel="stylesheet">
 	<link href="css/flexboxgrid.css" rel="stylesheet">
 	<link href="css\style_seppi.css" rel="stylesheet">
+	<link href="css\style_meki.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+	<link href="css/jquery-ui.min.css" rel="stylesheet">
 	<link href="css/navigation.css" rel="stylesheet">
 	<link href="css/elastic-circle-slideshow2.css" rel="stylesheet">
 </head>
@@ -184,6 +186,90 @@
 				</div>
 			</div>
 		</div>
+		<div class="new-section-white space-120">
+			<article class="row mainContent">
+				<div class="col-lg-12">
+					<div class="col-lg-offset-2 col-lg-8">
+						<p class="author">Sebastian Schuchmann</p>
+						<h2>Die Bestandteile</h2>
+						<img src="img/technische_skizzen%20Kopie.png" id="technische_skizzen">
+						<p>Die folgende Auflistung soll einen detaillierten Überblick über jedes Teil des Add-Ons geben und die jeweiligen Gründe für die getroffenen Designentscheidungen. </p>
+						<p><b>Allgemein</b>
+							<BR>
+							Beim Design des Add-Ons war das Volumenbudget von größter Relevanz.
+Die Vergrößerung eines Bestandteils führt zu Verkleinerungen anderer Bestandteile. Somit muss alles der Priorität nach angemessen Platz zugewiesen bekommen. Ein weiterer Faktor auf den Rücksicht genommen wird, sind die unterschiedlichen Formen der Gegenstände, die im Add-On gelagert werden. Abhängig davon werden auch die funktionellen Bereiche aufgeteilt.</p>
+						<!--Accordion-->
+						<div id="accordion">
+							<h3>Getränkebereich</h3>
+							<div>
+								<img src="img/technische_skizzen_getraenke_aufsicht.png" id="pic_getraenkeaufsicht">
+								<p> Der Getränkebereich ist wie der Bereich für das Grillgut isoliert, um die Kälte zu behalten.</p>
+								<p><b>Gitterstruktur</b>
+									<BR> Im Vergleich zu Grillgut sind Getränkeflaschen statische Formen und nicht so flexibel wie zum Beispiel Fleisch. Somit ist eine feste Anordnung in eine rechteckige Gitterstruktur sinnvoll. Aus diesen Gründen wurde sich für einen gitterförmigen Getränkehalter entschieden. Diese befindet sich in einer Schublade und ist herausnehmbar. Damit die Getränke während der Fahrt nicht klappern, wird das Gitter mit einer elastischen Gummierung ausgestattet. Als zusätzlichen Vorteil hat dies das durch die Elastizität Getränkeflaschen nahezu jeder Breite unterstützt werden. Somit kann alles gelagert werden und der Nutzer hat bei der Fahrt nicht das Gefühl, dass die Flaschen kaputt gehen können, was für ein sicheres Fahrgefühl essentiell ist. Von Vorteil ist die Möglichkeit entnehmbar zu sein, weil der Verleih das Gitter reinigen kann, falls doch mal etwas kaputtgehen sollte oder etwas verschüttet wurde. Es wurde sich für eine Gitteranordnung von vier mal drei (4x3) entschieden, also eine Kapazität von zwölf Flaschen, wobei eine Beladung einer bis zu 1,5 Liter großen Flasche möglich ist. Wegen der durchschnittlich angenommenen Gruppengröße von circa vier bis sechs Personen ist das eine angemessene Größe. Die einzelnen Rechtecke im Gitter haben eine relativ niedrige Wandhöhe, um niedrig genug zu sein, damit kleine Flaschen (zum Beispiel Bierflaschen) leicht zu entnehmen sind, aber große Wasserflaschen trotzdem in Position gehalten werden. </p>
+									<img src="img/technische_skizzen_getraenke_ansicht.png" id="pictures">
+								<p><b>Die Schublade</b>
+									<BR> Die ganze Schublade befindet sich gegenüber der Seite auf der sich der Grillmeister befindet, damit von jedem Getränke entnommen werden können ohne die Arbeit am Grill zu unterbrechen. Des weiteren ist direkt in dem Griff der Schublade ein Flaschenöffner integriert, weil dieser vom Ablauf her chronologisch nach der Entnahme von Getränken seinen Einsatz findet. </p>
+								<p> Damit es thermodynamisch sinnvoll positioniert ist, befindet sich der Kühlbereich soweit wie möglich unten. Um alle Flaschen gleichzeitig zugänglich zu machen, ohne das andere herausgenommen werden müssen, wurde sich gegen eine Tür und für eine Schublade entschieden. Dort hat man nach dem herausschieben einen vollen Überblick über die Auswahl. Des Weiteren ist sie für den Fahrradverleiher einfacher befüllbar und austauschbar. </p>
+							</div>
+							<h3>Grillgutbereich</h3>
+							<div>
+								<img src="img/technische_skizzen_grillgut_aufsicht.png" id="pic_getraenkeaufsicht">
+								<p>Direkt neben dem Getränkebereich befindet sich der isolierte Grillgutbereich. Dieser ist mit einer isolierenden Wand von dem Getränkebereich getrennt, um bestmöglich einen Temperaturaustausch zu verhindern, damit auch bei unterschiedlich häufiger Benutzung kein Temperaturdefizit entsteht. Wird zum Beispiel der Getränkebereich mit hoher Frequenz geöffnet, muss der Grillgut-Bereich bei guter Trennung der Bereiche nicht darunter leiden. Im Gegensatz zum Getränkebereich hat der Grillgutbereicheine Tür und im Kühlbereich ein Regalbrett. Somit ist dieser ähnlich einem kleinen Kühlschrank aufgebaut. Dem Getränkebereich ähnlich sind die Griffe flach, um Platz zu sparen und ein Dagegenstoßen zu verhindern.</p>
+								<img src="img/technische_skizzen_grillgut_ansicht.png" id="grillgut_ansicht">
+							</div>
+							<h3>Die Getränke</h3>
+							<div>
+								<img src="img/flasche.png" id="flasche">
+								<p>Neben dem Grillgut werden auch die Getränke an den Verleih geliefert. Auch hier muss der Nutzer Präferenzen bei der Bestellung angeben. Gefragt wird ob ein Bedarf nach alkoholischen Getränken besteht. In jedem Fall werden immer mindestens vier große Flaschen Wasser mitgeliefert, damit der dehydrierenden Wirkung des Alkohols entgegengewirkt werden kann, besonders an heißen Tagen an denen der Bedarf an Wasser sowieso sehr hoch ist.</p>
+								
+							</div>
+							<h3>Der Grill</h3>
+							<div>
+								<img src="img/technische_skizzen_grill.png" id="technische_skizzen_grill">
+								<p> Das ganze Grillgut wäre nichts ohne einen Grill, der damit umgehen kann. Deswegen ist dieser ausgelegt auf die große Menge an Grillgut und ist größer als ein herkömmlicher Grill, der mit an den Strand genommen werden kann.
+									<p><b>Das Ausklappen</b>
+										<img src="img/grill_aufklappen.png" id="flasche">
+										<BR> Bei Ankunft an den Zielort wird der Grill, der während der Fahrt auf dem Tisch platziert ist, aufgeklappt. Dies ist nicht nur ein rein funktionaler Akt, sondern auch ein symbolischer Akt, der das Gefühl “angekommen zu sein” vermittelt. Zudem hat dies den Sinn einer versehentlichen Aktivierung des Grills vorzubeugen. Möchte man nämlich an den abschließbaren Bereich herankommen, könnte man sich beim Bücken versehentlich am offenen, aktiven Grill den Kopf stoßen, wenn dieser direkt über diesem Bereich positioniert ist. Daher beugt das Ausklappen des Grills weg von den Lagerbereichen einem solchen Unfall vor. Um einem Einschalten vor dem Ausklappen und einem damit verbundenen Unfall entgegenzuwirken, ist die Propangaskartusche erst im ausgeklappten Zustand mit dem Grill verbunden.</p>
+									<p><b>Bedienung</b>
+										<BR> Der Grill hat minimale Bedienelemente. Der Nutzer benutzt den Grill zum ersten Mal und sollte dabei keine Schwierigkeiten haben. Als Hilfe wurde sich an beliebten Grillmodellen orientiert, um die Chance auf bereits bekannte mentale Modelle aufzubauen zu erhöhen. Es gibt einen Zünder für Gas und einen Temperaturregler mit drei Einstellungsstufen. Zusätzlich noch eine rote Leuchte, die angibt, dass der Grill heiß ist. Für alle Fälle ist eine Bedienungsanleitung beigelegt. Für eine komfortable Grillerfahrung ist die Grillzange direkt neben der Grillplatte aufgehangen und somit immer schnell erreichbar.</p>
+									<p><b>Gasgrill</b>
+										<BR> Für die Variante Gasgrill wurde sich aus mehreren Gründen entschieden. Als direkte Konkurrenten kamen der Elektrogrill und der klassische Kohlegrill in Frage. Zuerst wirkt der Elektrogrill aufgrund seines Komfort und dem vorhandenen Akku sinnvoll, doch es zeigt sich, dass der Stromverbrauch nicht tragbar wäre. Der Kohlegrill hingegen verwendet, wie der Gasgrill, ein brennbares Medium, doch da dieses sehr schmutzanfällig ist und zudem weniger komfortabel wurde sich letztendlich für den Gasgrill entschieden. An die Propangaskartusche selbst hat der Nutzer bewusst keinen Zugang. Diese ist zwar robust, aber ein abgeschlossenes Design gibt dem Nutzer Sicherheit und stellt klar mit welchen Bereichen er etwas zu tun haben sollte und welchen nicht.</p>
+								</p>
+							</div>
+							<h3>Geschirr, Besteck und Extras</h3>
+							<div>
+								<img src="img/technische_skizzen_geschirr.png" id="pictures">
+								<p>Damit der Nutzer an Nichts denken muss, ist auch für jeglich nötiges Geschirr und Besteck gesorgt. Es gibt Teller, Becher, Messer und Gabel sowie eine Grillzange. 
+									<img src="img/geschirr.png" id="flasche">
+									Die Teller bestehen aus Laubblättern und sind damit kompostierbar und nachhaltig. Das Besteck ist Bio-Kunststoff, welcher ebenso einfach Abbaubar ist. Somit muss weder der Nutzer noch der Verleih dafür sorgen dass es sauber ist, da man es einfach entsorgen kann. </p>
+								<p><b>Die Extras</b>
+									<BR> Ebenso gibt es eine handelsübliche Küchenrolle und zehn Hygienetücher, um sich nach dem Essen gutreinigen zu können. Es soll das Gefühl entstehen, dass das Add-On vorausschauend agiert und wie ein Butler weiß welche Wünsche man haben wird. </p>
+								<p>So ist auch an Müllbeutel gedacht mit denen man jegliches Verpackungsmaterial entsorgen kann. Wenn dem Nutzer eine ordnungsgerechte Entsorgung einfach gemacht wird, ist es auch wahrscheinlicher dass sich dieser danach richtet.</p>
+								<p><b>Das Notfallkit</b>
+									<BR> Ein Notfallkit wird auch außerhalb des eigentlichen Add-Ons am Cargobike befestigt. Es soll aus einem grundlegendem Erste-Hilfe-Set bestehen, um bei kleineren Verletzungen Hilfe zu leisten. Zusätzlich enthält es Reifenschaum mit dem man platte Reifen vorübergehend fahrtüchtig machen kann. Falls der Nutzer sich verirrt und kein GPS-Signal empfängt, wird eine einfache Karte mit Notfallstandpunkten beigelegt. Zur Orientierung ist auch ein Kompass enthalten. </p>
+							</div>
+							<h3>Abschließbarer Bereich</h3>
+							<div>
+								<img src="img/abschliessbares_fach_1.png" id="abschliessbares_fach_1">
+								<p> Zur sicheren Verwahrung der Wertsachen gibt es einen verschließbaren Bereich im Add-on. Es ist genug Platz für Handys und Geldbeutel. Beim Ausleihen werden mehrere Schlüsselarmbänder ausgegeben, die am Handgelenk befestigt werden. Damit kann man es auch beim Schwimmen alleine lassen kann.</p>
+							</div>
+							<h3>Musikanlage</h3>
+							<div>
+								<p>Für konstante akustische Stimulation am Strandausflug sorgt die Musikanlage. Damit diese nicht Stress, sondern Spaß bereitet, ist die Verbindung einfach über Bluetooth möglich. Da es besonders wichtig ist, dass jeder die Möglichkeit hat die Anlage zu nutzen, ist auch die Verbindung über ein normales Klinkenkabel möglich, sowie die Nutzung des eingebauten Radios.</p>
+								<p>Die langfristige Stromversorgung wird mit einem zusätzlichen Akku garantiert. Da Handys besonders viel Strom verbrauchen durch die konstante Suche nach Signalen an etwas weiter entfernten Badeorten ist diese Funktionalität nicht zu unterschätzen. </p>
+								<p><b>Aufbau</b>
+									<BR> Aufgebaut ist die Anlage klassisch mit einem Tieftöner und einem Hoch-Mittel-Töner. Diese Kombination deckt das gesamte, benötigte Frequenzspektrum ab. Es ist zudem von der Herstellung simpel und preiswert. Des weiteren deckt es sich vom Aussehen mit dem verbreiteten mentalen </p>
+									<img src="img/technische_skizzen_musikanlage.png" id="pictures">
+							</div>
+							<BR>
+						</div>
+					</div>
+				</div>
+			</article>
+		</div>
+		
+		
+		
 		<a href="First_Steps.html" class="noIcon">
 			<div class="nextPage">
 				<p class="nextPageSubline centerIt">Weiter geht's mit</p>
@@ -238,11 +324,25 @@
 	</script>
 	<script src="js/main.js">
 	</script>
+	<script src="js/jquery-3.1.1.min.js">
+	</script>
+	<script src="js/jquery-ui.js">
+	</script>
+	<script src="js/jquery-ui.min.js">
+	</script>
 	<script>
 	      (function() {
 	        document.documentElement.className = 'js';
 	        var slideshow = new CircleSlideshow(document.getElementById('slideshow'));
 	      })();
+	</script>
+		<script>
+		$(function () {
+			$("#accordion").accordion({
+				collapsible: true
+				, heightStyle: "content"
+			});
+		});
 	</script>
 </body>
 </html>
