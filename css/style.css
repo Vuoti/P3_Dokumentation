@@ -532,3 +532,19 @@ ul{
 	position: absolute;
 	margin-top: 0px;
 }
+
+
+.bewegDeinCurserAlter{
+	width: 1200px;
+	height: 811px;
+	transition: all 0.5s;
+	opacity: 1;
+	position: absolute;
+	background-image: url(../img/bewegDeinCurserAlter.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.bewegDeinCurserAlter:hover{
+	opacity: 0;
+}
