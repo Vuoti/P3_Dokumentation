@@ -243,6 +243,7 @@ blockquote:after {
 	background-position: center;
 	position: absolute;
 }
+
 #DokuTitel-Lastenraeder {
 	background-image: url("../img/DokuTitel/title-Lastenraeder.png");
 }
@@ -255,6 +256,9 @@ blockquote:after {
 }
 #title-AddOne {
 	background-image: url("../img/DokuTitel/title-Add-One.png");
+}
+#title-trailer {
+	background-image: url("../img/DokuTitel/title-trailer.png");
 }
 .space-40 {
 	margin-top: 40px;
