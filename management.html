@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script
+		src="https://code.jquery.com/jquery-2.2.4.js"
+		integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+		crossorigin="anonymous"></script>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,19 +17,22 @@
 	<link href="css/normalize.css" rel="stylesheet">
 	<link href="css/flexboxgrid.css" rel="stylesheet">
 	<link href="css\style_seppi.css" rel="stylesheet">
+		<link href="css\style_meki.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+		<link href="css/jquery-ui.min.css" rel="stylesheet">
 	<link href="css/navigation.css" rel="stylesheet">
 	<link href="css/elastic-circle-slideshow.css" rel="stylesheet">
 	<link href="css/style_uta.scss" rel="stylesheet">
 </head>
 <body>
 	<!-- MAIN CONTENT -->
-	<main class="management">
+<main class="management">
 		<section class="fullscreen-header">
 			<p class="subline">Ein wenig Mangement &amp; Controlling</p>
 			<div class="title" id="DokuTitel-Management"></div>
+	</section >
 
-		</section >
+
 		<section class="gmodel">
 			<article class="row mainContent">
 	      <div class="col-lg-12">
@@ -172,9 +179,53 @@
 							Uta Janzen
 						</p>
 						<h2>Die Risken</h2>
-						<p>Ein Geschäftsmodell wird darüber definiert, welchen
-							Nutzen ein zukünftiges Unternehmen dem Kunden und den Geschäftspartnern bringen kann.
+						<p>
+							Einige Risiken, die bei der Realisierung des Projektes gefährlich werden können, sind unten aufgelistet.
+							Dazu wurden einige Lösungsstrategien überlegt, um diese Risiken im Vorfeld abzufangen und den kritischen Faktor zu minimieren.
 						</p>
+
+			<!--Accordion-->
+			<div id="accordion">
+				<h3 class="">Die Produktion dauert zu lange</h3>
+				<div>
+					<p>Wir möchten unsere Produkte in einer Behindertenwerkstatt produzieren lassen.
+						Die Qualität ist überdurchschnittlich, da die Ware von Hand gefertigt wird und ein fertiges Vollholzprodukt in der Produktion nicht mehr kostet als Spanplattenmöbel bei Ikea. Zudem können wir Menschen mit Behinderung dadurch unterschützen, indem wir Ihnen Arbeitsaufträge geben und sie angemessen bezahlen.
+						<br><br><b>Das Risiko:</b><br> Durch die Einzelproduktion und dadurch, dass die Ware erst auf Nachfrage angefertigt wird, kann es sein, dass bei einer plötzlich kommenden Großnachfrage, die vor allem in den Frühlings- und Sommermonaten kommen kann, die Add-Ons nicht schnell genug nachproduziert werden können.
+						<br><br><b>Die Lösung:</b><br> Eine Lösung dafür wäre eigenes Kapital vorzulegen, um eine größere Stückzahl an Add-Ons schon im Voraus (idealerweise Ende Winter) zu produzieren. Diese werden dann zwischengelagert und erst verkauft, wenn die Anzahl der Anfragen, die mögliche Produktionsmenge übersteigt. Eine andere Lösung wäre bei mehreren Behindertenwerkstätten nachzufragen, ob sie in einem solchen Fall Einzelaufträge annehmen, um bei größerer Nachfrage eine mehr Add-Ons zur selben Zeit zu produzieren.
+					</p>
+				</div>
+				<h3>Ein vergleichbares, jedoch billigeres Produkt kommt auf den Markt</h3>
+				<div>
+						<p><b>Das Risiko:</b><br>
+								Es könnte durchaus sein, dass ein Produkt auf den Markt kommt, das
+								vergleichsweise billiger ist und eine Konkurrenz für uns darstellt. <br><br><b>Die Lösung:</b><br> In diesem Falle
+								 wird eine angemessene Marketingstrategie überlegt, um das Add-On vor
+								der Konkurrenz zu etablieren und durch Angebote unsere Verkaufszahlen zu erhöhen. Als Marketingstrategie
+								kämen Verlosungen von Gutscheinen und Reisen und diverse Gewinnspiele in Frage.
+								<p><b>Das Ziel:</b><br>Das Add-On wird mit den uns wichtigen Werten, wie Umweltfreundlichkeit, Sozialem Engagement und Regionalität verknüpft werden. Es soll ein Premiumprodukt sein, das für alle zugänglich ist und das wir mit der Masse in Form der Fahrradhändler teilen. Wir geben mit unserem Produkt das Versprechen einer guten Qualität und darüber hinaus einem einfach zugänglichen, aber dennoch besonderem Erlebnis, dass jeder in allen möglichen Altersklassen individuell gestalten kann. Als Original arbeiten wir von anfang an so Kunden- und Nutzernah, wie es nur möglich ist, um unser Produkt zu verbessern. Davon werden wir auch nicht ablassen.
+						</p>
+				</div>
+				<h3>Die Akzeptanz des Produktes ist zu niedrig</h3>
+				<div>
+					<p>
+						Falls die ersten Add-Ons nicht gut ankommen, dann wird das Produkt nach Möglichkeit verbessert.  Als erstes werden die Add-Ons in fahrradfreundlichen Städten sowie Urlaubsorten mit vielen Ausflugsmöglichkeiten bevorzugt etabliert. Zudem wird dann mehr in Marketing und Werbung investiert.
+					</p>
+				</div>
+				<h3>Der Server stürzt ab</h3>
+				<div>
+					<p></p></div>
+				<h3>Anfangs werden nicht genügend Add-Ons verkauft / Fahrräder reserviert</h3>
+				<div>
+					<p><b>Die Lösung:</b><br>
+						Es wird ein entsprechend hoher Kredit aufgenommen, um sich davor abzusichern.
+						Zudem können noch Sponsoren aufgesucht und Crowdfunding betrieben werden, falls das Geld ausgeht. Die Website kostet nichts und ist permanent da, das heißt man kann solange an etwas anderem arbeiten und einen Monat auch mal aussitzen, was im Winter sowieso der Fall sein wird. Währenddessen können neue Add-Ons konzipiert und Social Media Werbung gemacht werden. Flyer bearbeitet und rausgeschickt, sowie Messebesuche geplant werden. Das Geld was im Sommer reinkommt wird dann auf das ganze Jahr verteilt und teilweise zurückgelegt.
+					</p>
+				</div>
+				<h3>Das	Addon wird zurückgeschickt, weil etwas nicht funktioniert</h3>
+				<div>
+					<p><b>Die Lösung:</b><br>Dann wird es repariert, oder, falls es länger dauert, das Add-On ersetzt um die Kundenzufriedenheit zu bewahren. Mit den Werkstätten wird ständiger Kontakt gehalten, um mögliche Fehler im Voraus zu beheben. Erste Stücke müssen ausgiebig getestet werden, damit sich eine mögliche Fehlplanung nicht in weiteren Produktionen einschleicht und Geld kostet.</p>
+				</div>
+			</div>
 					</div>
 				</div>
 			</article>
@@ -197,7 +248,7 @@
 			<div class="row ">
 				<div class="col-lg-12">
 					<div class="col-lg-offset-2 col-lg-8">
-	
+
 							<img class="dia1" alt="Kostendiagramm" src="img/diagramm1.0.PNG">
 
 							<p>Die Erlöse bestehen aus den Add-Ons und der Provision, welche wir von den Händlern
@@ -216,16 +267,89 @@
 								 wahrscheinlich mehr sein, da nicht jeder Händler, der sich anmeldet auch ein Add-On haben möchte. Um den Erlös zu berechnen, werden nun die 6.000€ mit 35 Händlern multipliziert. So kommt man auf einen Provisionserlös von 210.000€.
 								 Für den jährlichen Gewinn werden noch die jährlichen Kosten abgezogen und der Erlös der Add-Ons summiert.
 							</p>
+
 					</div>
 				</div>
 			</div>
 </section>
 
-	</main>
+<!-- NEXT ARTICLE -->
+	<a href="unser_system.html" class="noIcon">
+	<div class="nextPage">
+		<p class="nextPageSubline centerIt">Weiter geht's mit</p>
+		<p class="nextPageHeadline centerIt">Unserem System</p>
+		<img src="img/next-system.png" class="nextPageImage">
+	</div>
+</a>
+</main>
+<!-- NAVIGATION BUTTON -->
+<div id="active_menu"></div><a class="cd-nav-trigger">Menu <span class="cd-nav-icon"></span></a> <!-- NAVIGATION -->
+<div class="cd-nav" id="cd-nav">
+<div class="cd-navigation-wrapper">
+	<div class="cd-half-block">
+		<h2>Navigation</h2>
+		<nav>
+			<ul class="cd-primary-nav">
+				<li>
+					<a class="selected list" href="#0">The team</a>
+				</li>
+				<li>
+					<a class="list" href="#0">Our services</a>
+				</li>
+				<li>
+					<a class="list" href="#0">Our projects</a>
+				</li>
+				<li>
+					<a class="list" href="#0">Start a project</a>
+				</li>
+				<li>
+					<a class="list" href="#0">Contact us</a>
+				</li>
+			</ul>
+		</nav>
+	</div><!-- .cd-half-block -->
+	<div class="cd-half-block">
+		<address>
+			<ul class="cd-contact-info">
+				<li>
+					<a href="mailto:info@myemail.co">info@myemail.co</a>
+				</li>
+				<li>0244-12345678</li>
+				<li><span>MyStreetName 24</span> <span>W1234X</span> <span>London, UK</span></li>
+			</ul>
+		</address>
+	</div><!-- .cd-half-block -->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<script src="js/navigation.js">
+	</script>
+	<script src="js/classie.js">
+	</script>
+	<script src="js/dynamics.min.js">
+	</script>
+	<script src="js/main.js">
+	</script>
+	<script src="js/jquery-3.1.1.min.js">
+	</script>
+	<script src="js/jquery-2.2.4.min.js">
+	</script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/jquery-ui.js">
+	</script>
+	<script src="js/jquery-ui.min.js">
+	</script>
+	<script>
+	$(function () {
+		$("#accordion").accordion({
+			collapsible: true
+			, heightStyle: "content"
+		});
+	});
+</script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+
 </body>
 </html>
