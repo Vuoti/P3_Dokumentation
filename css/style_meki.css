@@ -90,7 +90,6 @@ display: block;
 
 #title-ausblick {
 	background-image: url("../img/DokuTitel/title_ausblick.png");
-	margin-top: 0px;
 }
 
 #dj_add-on {
@@ -106,4 +105,9 @@ display: block;
 #koch_add-on {
 	float: right;
 	width: 40%;
+}
+
+#title_quellen {
+	background-image: url("../img/DokuTitel/title-quellen.png");
+	padding-bottom:  0px;
 }
