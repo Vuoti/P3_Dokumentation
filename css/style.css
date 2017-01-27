@@ -552,3 +552,9 @@ ul{
 .bewegDeinCurserAlter:hover{
 	opacity: 0;
 }
+
+.matikelnr{
+	color: red;
+	font-weight: 400;
+	opacity: 0.5;
+}
