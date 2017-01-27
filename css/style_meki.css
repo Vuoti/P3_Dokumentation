@@ -87,3 +87,23 @@ display: block;
 	display:block;
 	margin: auto;
 }
+
+#title-ausblick {
+	background-image: url("../img/DokuTitel/title_ausblick.png");
+	margin-top: 0px;
+}
+
+#dj_add-on {
+	float: right;
+	width: 40%;
+}
+
+#date_add-on{
+	float: right;
+	width: 40%;
+}
+
+#koch_add-on {
+	float: right;
+	width: 40%;
+}

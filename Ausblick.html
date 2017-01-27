@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="UTF-8">
+	<title>P3 Dokumentation - Gruppe 2</title>
+	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/flexboxgrid.css" rel="stylesheet">
+	<link href="css\style_seppi.css" rel="stylesheet">
+	<link href="css\style_meki.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/navigation.css" rel="stylesheet">
+	<link href="css/elastic-circle-slideshow2.css" rel="stylesheet"> </head>
+
+<body>
+	<!-- MAIN CONTENT -->
+	<main>
+		<section class="fullscreen-header">
+			<p class="subline">Für die Zukunft</p>
+			<div class="title" id="title-ausblick"></div>
+		</section>
+		<article class="row mainContent">
+			<div class="col-lg-12">
+				<div class="col-lg-offset-2 col-lg-8">
+					<p class="author">Mekong Lam</p>
+
+					<h2>Weitere Add-on Ideen</h2>
+					<p>
+						Neben dem vorgestellten Add-on für den Urlaub gibt es weitere Add-ons, stehen weitere Add-on-Ideen für warme Jahreszeiten im Ausblick
+					</p>
+					<p>
+					<b>Das DJ-Add-on</b><BR>
+						<img src="img/dj_add-on.png" id="dj_add-on">
+						Für die Outdoor Parties eignet sich das DJ-Add-on, das fertig zusammengebaut ist mit Mischpult und Soundanlage. So müssen DJs nur noch mit dem Cargobike zur Party hinradeln, den Strom anschließen und loslegen. 
+					</p>
+					<p>
+					<b>Das Date-Add-on</b><BR>
+					
+						Überlegt man sich, <img src="img/date_add-on.png" id="date_add-on">wie man den Partner überraschen  kann nach der Arbeit, kann man ihn/sie mit dem Cargobike in Kombination mit dem Date-Add-on abholen.
+						Dieses beinhaltet eine Picknickdecke, Getränke, und Holz für ein Lagerfeuer. So setzt sich der/die Partner/in entspannt ins Cargobike und freut sich auf den Feierabendausflug. Selbstverständlich ist das Date-Add-on auch für Tagesausflüge ausleihbar. 
+					</p>
+					<p>
+					<b>Das Koch-Add-on</b><BR>
+					<img src="img/koch_add-on.png" id="koch_add-on">
+					
+						Für ein besonderes Kocherlebnis eignet sich das Koch-Add-on. Ob für Gartenfeiern oder Firmenanlässe, mit dem Kochadd-on und dem dazu buchbaren Koch kann man an jedem möglichen Platz im freien nicht nur bei der Zubereitung zuschauen, sondern sich auch verköstigen lassen. Die Bestandteile des Koch-Add-ons sind eine integrierte Herdplatte, Grill, Kochutensilien mit Geschirr, Besteck und Gläser, ein Kühlbereich und Arbeitsplatten. 
+					</p>
+					<p>
+					<b>Trash-2-cash</b><BR>
+						Eine Umweltfreundliche Alternative zu neuem Material wäre es Add-ons nach dem Trash-2-Cash(http://trash2cashproject.eu/about/) Prinzip zu verbrauchen. Das unterstützt den Wert Nachhaltigkeit und reduziert die Erstellung neuer Materialien. 
+					</p>
+
+				</div>
+			</div>
+		</article>
+
+		<a href="Startseite.html" class="noIcon">
+			<div class="nextPage">
+				<p class="nextPageSubline centerIt">Und weil es so schön war zurück zum</p>
+				<p class="nextPageHeadline centerIt">Start</p> <img src="img/next-firstSteps.png" class="nextPageImage"> </div>
+		</a>
+	</main>
+	<!-- NAVIGATION BUTTON -->
+	<div id="active_menu"></div><a class="cd-nav-trigger">Menu <span class="cd-nav-icon"></span></a>
+	<!-- NAVIGATION -->
+	<div class="cd-nav" id="cd-nav">
+		<div class="cd-navigation-wrapper">
+			<div class="cd-half-block">
+				<h2>Navigation</h2>
+				<nav>
+					<ul class="cd-primary-nav">
+						<li> <a class="selected list" href="#0">The team</a> </li>
+						<li> <a class="list" href="#0">Our services</a> </li>
+						<li> <a class="list" href="#0">Our projects</a> </li>
+						<li> <a class="list" href="#0">Start a project</a> </li>
+						<li> <a class="list" href="#0">Contact us</a> </li>
+					</ul>
+				</nav>
+			</div>
+			<!-- .cd-half-block -->
+			<div class="cd-half-block"> <address>
+					<ul class="cd-contact-info">
+						<li>
+							<a href="mailto:info@myemail.co">info@myemail.co</a>
+						</li>
+						<li>0244-12345678</li>
+						<li><span>MyStreetName 24</span> <span>W1234X</span> <span>London, UK</span></li>
+					</ul>
+				</address> </div>
+			<!-- .cd-half-block -->
+		</div>
+		<!-- .cd-navigation-wrapper -->
+	</div>
+	<script src="js/navigation.js">
+	</script>
+	<script src="js/classie.js">
+	</script>
+	<script src="js/dynamics.min.js">
+	</script>
+	<script src="js/main.js">
+	</script>
+	<script>
+		(function () {
+			document.documentElement.className = 'js';
+			var slideshow = new CircleSlideshow(document.getElementById('slideshow'));
+		})();
+	</script>
+</body>
+
+</html>
