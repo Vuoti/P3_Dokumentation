@@ -378,10 +378,16 @@ blockquote:after {
 .in-circle:hover {
 	clip-path: circle(142px);
 }
+
+.videoundbuttondiv{
+	position: relative;
+}
 .video-play {
+	top: 44%;
+	left: 46%;
 	position: absolute;
-	height: 284px;
-	width: 284px;
+	height: 40px;
+	width: 40px;
 	border: none;
 	background-color: rgba(0, 0, 0, 0);
 	background-image: url(../img/btn-play-hover.png);
@@ -391,10 +397,13 @@ blockquote:after {
 	pointer-events: none;
 }
 .video-stop {
+	top: 44%;
+	left: 46%;
 	position: absolute;
-	height: 284px;
-	width: 284px;
+	height:40px;
+	width: 40px;
 	border: none;
+	opacity: 1;
 	background-color: rgba(0, 0, 0, 0);
 	background-image: url(../img/btn-stop.png);
 	background-repeat: no-repeat;
@@ -402,6 +411,7 @@ blockquote:after {
 	z-index: 10;
 	pointer-events: none;
 }
+
 .hide {
 	opacity: 0;
 }

@@ -160,11 +160,16 @@
 						<p class="">Um ein Gefühl für die Haptik und räumlichen Dimensionen des Add-Ons zu bekommen, wurde ein erstes, grobes Pappmodell angefertigt.
 							Der Fokus lag vor allem darauf, dass das Modell den realen Maßen entspricht.</p>
 					</div>
-					<video src="img/bodystorming.mp4" poster="img/bodystorming.png" controls type="video/mp4" onclick="this.play()" class="full-width full-height">
-						Ihr Browser kann dieses Video nicht wiedergeben.<br/>
-						Dieser Film zeigt eine Demonstration des video-Elements.
-						Sie können ihn unter <a href="#">Link-Addresse</a> abrufen.
-					</video>
+					<div class="videoundbuttondiv">
+						<button id="bodystorming-btn" class="video-play" ></button>
+						<video src="img/bodystorming.mp4" poster="img/bodystorming.png" type="video/mp4" id="bodystorming" class="full-width full-height">
+							Ihr Browser kann dieses Video nicht wiedergeben.<br/>
+							Dieser Film zeigt eine Demonstration des video-Elements.
+							Sie können ihn unter <a href="#">Link-Addresse</a> abrufen.
+
+						</video>
+
+					</div>
 					<div class="col-lg-offset-2 col-lg-8">
 						<p class="columns-1">
 							<b>Bodystorming</b><br>
@@ -291,7 +296,7 @@
 						<p class="author">Sebastian Schuchmann</p>
 						<h2>Der Funktionsprototyp</h2>
 						<p>Für einen Test der funktionalen Anforderungen wurde ein weiterer Prototyp angefertigt. Die Einhaltung der Originalgröße ist hierbei, im Gegensatz zu dem Bodystorm-Modell nicht relevant. Um Material und Zeit zu sparen wurde der halbe Maßstab ( 1:2 ) gewählt.
-							<br>Entschieden wurde sich für den Bau mit Sandwichpappe, da diese einfach zu verarbeiten und trotzdem stabil ist. Die Türen und Schubladen wurden mit Hilfe von kleinen Scharnieren, Magneten und Nägeln umgesetzt.</p>
+							<br>Entschieden wurde sich für den Bau mit Depafit, da dieser Werksstoff einfach zu verarbeiten und trotzdem stabil ist. Die Türen und Schubladen wurden mit Hilfe von kleinen Scharnieren, Magneten und Nägeln umgesetzt.</p>
 					</div>
 				</div>
 			</div>
@@ -438,6 +443,8 @@
 	<script src="js/jquery-3.1.1.min.js">
 	</script>
 	<script src="js/jquery-2.2.4.min.js">
+	</script>
+	<script src="js/player.js">
 	</script>
 
 	<script src="js/jquery-ui.js">
