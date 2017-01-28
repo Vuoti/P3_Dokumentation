@@ -37,6 +37,13 @@ overflow: hidden;
 	margin-top:35px;
 	background-image: url("../img/DokuTitel/title-Zielgruppe.png");
 }
+#dankbild{
+width: 100%;
+}
+#title_danksagung {
+	margin-top:35px;
+	background-image: url("../img/DokuTitel/title-danksagung.png");
+}
 #stufamiliy {
 	width: 100%;
 	margin-top: 33px;
