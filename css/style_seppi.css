@@ -32,7 +32,13 @@ overflow: hidden;
 	width: 14px;
 	height: 14px;
 }
-
+#herz{
+	left: 34%;
+    position: fixed;
+    z-index: -10;
+    top: 56%;
+    opacity: 0.8;
+}
 #HeadlineZielgruppe {
 	margin-top:35px;
 	background-image: url("../img/DokuTitel/title-Zielgruppe.png");
