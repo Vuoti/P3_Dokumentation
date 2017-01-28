@@ -8,6 +8,22 @@
 	margin: 0px;
 	padding: 0px;
 }
+#testcontent{
+	    overflow-x: hidden;
+	position:absolute; left: 0; right: 0; bottom: 0; top: 0px;
+}
+iframe{
+	overflow-x: hidden;
+	height: 100%;
+	width: 100%;
+
+background-color: transparent;
+border: 0 none transparent;
+padding: 0;
+overflow: hidden;
+}
+
+
 .author:after {
 	content: "";
 	display: inline-block;
