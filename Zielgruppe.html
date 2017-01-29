@@ -44,12 +44,15 @@
 				<div class="col-lg-offset-2 col-lg-8">
 					<p><b>Unser Fokus</b></p>
 					<p>Der primäre Fokus zur Ausarbeitung des Konzeptes richtet sich an Studenten. Ausschlaggebend dafür ist der Bezug zur Projektvision: Studenten sind Entscheidungsträger der Zukunft. Etabliert man Cargobikes bereits im Studentenleben, werden jene zukünftigen Studienabsolventen auch dieses Transportmittel weiterhin in Betracht ziehen. Desweiteren richtet sich derzeit der Cargo Bike Verkauf sehr stark an Familien, wodurch der Fokus auf Studenten eine weitere neue Masse anspricht.</p>
-					<video src="img/zielgruppeninterview.mp4" poster="img/zielgruppeninterview.png" controls type="video/mp4" onclick="this.play()" class="full-width full-height">
-            Ihr Browser kann dieses Video nicht wiedergeben.<br/>
-            Dieser Film zeigt eine Demonstration des video-Elements.
-            Sie können ihn unter <a href="#">Link-Addresse</a> abrufen.
-          </video>
-					<span style="color:red;	">Kann hier noch Musik rein? Und wir müssen die Einverständniserklärung noch machen</span>
+					<div class="videoundbuttondiv">
+						<button id="zielgruppeninterview-btn" class="video-play" ></button>
+						<video src="img/zielgruppeninterview.mp4" poster="img/zielgruppeninterview.png" type="video/mp4" id="zielgruppeninterview" class="full-width full-height">
+	            Ihr Browser kann dieses Video nicht wiedergeben.<br/>
+	            Dieser Film zeigt eine Demonstration des video-Elements.
+	            Sie können ihn unter <a href="#">Link-Addresse</a> abrufen.
+	          </video>
+						<span style="color:red;	">Kann hier noch Musik rein? Und wir müssen die Einverständniserklärung noch machen</span>
+					</div>
 				</div>
 			</div>
 		</article>
@@ -229,7 +232,7 @@
 				<p>Hanna und ihre Freunde verbringen den ganzen Tag am See und geben alles am nächsten Tag ab. Der Verkäufer überprüft, ob alles in Ordnung ist und dann verlassen Hanna und ihre Freundinnen den Laden, aber sie wissen jetzt schon, dass dies nicht der letzte Ausflug gewesen sein wird.</p>
 			</div>
 		</div>
-		
+
 	</article>
 
 	<main>
@@ -293,7 +296,6 @@
 	</script>
 	<script src="js/photostack.js">
 	</script>
-  <script src="js/skrollr.js"></script>
 	<script>
 	   // [].slice.call( document.querySelectorAll( '.photostack' ) ).forEach( function( el ) { new Photostack( el ); } );
 
@@ -302,6 +304,9 @@
 	     }
 	   } );
 	</script>
+	<script src="js/player.js">
+	</script>
+	<!--
 	<script src="js/jquery-2.2.4.min.js">
 	</script>
 	<script src="js/turntable.min.js">
@@ -315,5 +320,6 @@
 	  scrollStart: 'middle', // only necessary if axis = 'scroll'
 	});
 	</script>
+-->
 </body>
 </html>

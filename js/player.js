@@ -28,9 +28,25 @@ var Video_Bodystorming = {
     name_control: "bodystorming-btn",
     isPaused: true
 };
+var Video_Trailer = {
+    name: "trailer",
+    name_control: "trailer-btn",
+    isPaused: true,
+    controls: true
+};
+var Video_Zielgruppeninterview = {
+    name: "zielgruppeninterview",
+    name_control: "zielgruppeninterview-btn",
+    isPaused: true,
+};
+var Video_Animatic = {
+    name: "animatic",
+    name_control: "animatic-btn",
+    isPaused: true,
+};
 
 //Liste mit VideoObjekten
-var VideoList = Array(Video_Meki, Video_Seppi, Video_Uta, Video_Andre, Video_Bodystorming);
+var VideoList = Array(Video_Meki, Video_Seppi, Video_Uta, Video_Andre, Video_Bodystorming, Video_Trailer, Video_Zielgruppeninterview, Video_Animatic);
 //Funktion die einem VideoObjekt verschiedene Events (Click,mOver,mOut) verteilt
 function AddEvents(VideoObjekt) {
     //ClickEvent
@@ -43,17 +59,17 @@ function AddEvents(VideoObjekt) {
     }
     try {
         //MouserOverEvent
-        document.getElementById(VideoObjekt.name_control).addEventListener('mouseover', function() {
-            mouseover(this, VideoObjekt);
+        document.getElementById(VideoObjekt.name).addEventListener('mouseover', function() {
+            mouseover(VideoObjekt);
         });
     } catch (err) {
 
-        console.log("Der Button wurde nicht gefunden! Hat der Button die richtige ID?" + "\nDie Errormessage: " + err);
+        console.log("Mouse Over Fail" + err);
     }
     //MouseOutEvent
     try {
-        document.getElementById(VideoObjekt.name_control).addEventListener('mouseout', function() {
-            mouseout(this, VideoObjekt);
+        document.getElementById(VideoObjekt.name).addEventListener('mouseout', function() {
+            mouseout(VideoObjekt);
         });
 
     } catch (err) {
@@ -84,14 +100,23 @@ function click(Video, VideoObjekt) {
     }
 }
 //MouseOver Funktion
-function mouseover(VideoControl, VideoObjekt) {
+function mouseover(VideoObjekt) {
+  console.log("Mouse In");
     if (!VideoObjekt.isPaused) {
-        VideoControl.className = "video-stop";
+        document.getElementById(VideoObjekt.name_control).className = "video-stop";
+        if(VideoObjekt.controls){
+          document.getElementById(VideoObjekt.name).setAttribute("controls", "controls");
+        }
     }
+
 }
 //MouseOut Funktion
-function mouseout(VideoControl, VideoObjekt) {
+function mouseout(VideoObjekt) {
+  console.log("Mouse OUT");
     if (!VideoObjekt.isPaused) {
-        VideoControl.className = "video-stop hide";
+      document.getElementById(VideoObjekt.name_control).className = "video-stop hide";
+    }
+    if(VideoObjekt.controls){
+      document.getElementById(VideoObjekt.name).removeAttribute("controls");
     }
 }

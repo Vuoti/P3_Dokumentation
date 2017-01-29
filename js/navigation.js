@@ -45,3 +45,17 @@ button.addEventListener('click', function(event) {
         }, 700);
     }
 }, true);
+
+var NavElements = Array('nav-startseite', 'nav-vision', 'nav-recherche', 'nav-steps', 'nav-zielgruppe');
+
+function AddHoverEvents(input){
+  var nav = document.getElementById(input);
+  nav.addEventListener('mouseover', function(){
+    nav.className += ' hover-'+input;
+  })
+  nav.addEventListener('mouseout', function(){
+    nav.className = 'list';
+  })
+}
+
+for (var i = 0; i < NavElements.length; i++) AddHoverEvents(NavElements[i]);

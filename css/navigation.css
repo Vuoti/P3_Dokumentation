@@ -55,9 +55,9 @@ main {
   position: fixed;
   z-index: 2;
   left: 5%;
-top: 40px;
-height: 54px;
-width: 54px;
+  top: 40px;
+  height: 54px;
+  width: 54px;
 }
 #active_menu.active{
   z-index: 4;
@@ -211,7 +211,7 @@ width: 54px;
   height: 100%;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  padding: 40px 5% 40px calc(5% + 80px);
+  padding: 40px calc(10% + 80px) 40px calc(10% + 80px);
   /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -257,6 +257,7 @@ width: 54px;
 
 /* NAVIGATION STYLING */
 
+/*
 .cd-nav h2 {
   position: relative;
   margin-bottom: 1.7em;
@@ -266,7 +267,6 @@ width: 54px;
   text-transform: uppercase;
 }
 .cd-nav h2::after {
-  /* bottom separation line */
   content: '';
   position: absolute;
   left: 0;
@@ -275,6 +275,8 @@ width: 54px;
   width: 60px;
   background-color: currentColor;
 }
+*/
+/*
 .cd-nav .cd-primary-nav {
   margin-top: 60px;
 }
@@ -347,6 +349,8 @@ width: 54px;
   }
 }
 
+*/
+
 .no-js main {
   height: auto;
   overflow: visible;
@@ -365,4 +369,180 @@ width: 54px;
   -ms-transform: translateX(0);
   -o-transform: translateX(0);
   transform: translateX(0);
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+}
+
+.list{
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 64px;
+  color: white;
+}
+
+.list:before{
+  content: '';
+  display: block;
+  height: 0;
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+  margin: 0 auto;
+  width: 60px;
+  opacity: 0.1;
+}
+
+.hover-nav-startseite:after{
+  content:"";
+  left: calc(10% + 80px);
+  position: absolute;
+  margin-top: -90px;
+  z-index: -1;
+  background-image: url(../img/next-startseite.png);
+  height: 265px;
+  width: 76%;
+  opacity: 0.2;
+}
+
+.hover-nav-vision:after{
+  content:"";
+  left: calc(10% + 80px);
+  position: absolute;
+  margin-top: -90px;
+  z-index: -1;
+  background-image: url(../img/next-vision.png);
+  height: 265px;
+  width: 76%;
+  opacity: 0.2;
+}
+
+.hover-nav-recherche:after{
+  content:"";
+  left: calc(10% + 80px);
+  position: absolute;
+  margin-top: -90px;
+  z-index: -1;
+  background-image: url(../img/next-lastenraeder.png);
+  height: 265px;
+  width: 76%;
+  opacity: 0.2;
+}
+
+.hover-nav-steps:after{
+  content:"";
+  left: calc(10% + 80px);
+  position: absolute;
+  margin-top: -90px;
+  z-index: -1;
+  background-image: url(../img/next-firstSteps.png);
+  height: 265px;
+  width: 76%;
+  opacity: 0.2;
+}
+
+.hover-nav-zielgruppe:after{
+  content:"";
+  left: calc(10% + 80px);
+
+  position: absolute;
+  margin-top: -90px;
+  z-index: -1;
+  background-image: url(../img/next-zielgruppe2.png);
+  height: 265px;
+  width: 76%;
+  opacity: 0.2;
+}
+
+.hover-nav-addOn:after{
+  content:"";
+  left: calc(10% + 80px);
+
+  position: absolute;
+  margin-top: -90px;
+  z-index: -1;
+  background-image: url(../img/next-addOn.png);
+  height: 265px;
+  width: 76%;
+  opacity: 0.2;
+}
+
+.hover-nav-system:after{
+  content:"";
+  left: calc(10% + 80px);
+
+  position: absolute;
+  margin-top: -90px;
+  z-index: -1;
+  background-image: url(../img/next-system.png);
+  height: 265px;
+  width: 76%;
+  opacity: 0.2;
+}
+
+.hover-nav-management:after{
+  content:"";
+  left: calc(10% + 80px);
+
+  position: absolute;
+  margin-top: -90px;
+  z-index: -1;
+  background-image: url(../img/next-management.png);
+  height: 265px;
+  width: 76%;
+  opacity: 0.2;
+}
+.hover-nav-trailer:after{
+  content:"";
+  left: calc(10% + 80px);
+
+  position: absolute;
+  margin-top: -90px;
+  z-index: -1;
+  background-image: url(../img/next-trailer.png);
+  height: 265px;
+  width: 76%;
+  opacity: 0.2;
+}
+
+.hover-nav-ausblick:after{
+  content:"";
+  left: calc(10% + 80px);
+
+  position: absolute;
+  margin-top: -90px;
+  z-index: -1;
+  background-image: url(../img/next-ausblick.png);
+  height: 265px;
+  width: 76%;
+  opacity: 0.2;
+}
+
+.hover-nav-danke:after{
+  content:"";
+  left: calc(10% + 80px);
+
+  position: absolute;
+  margin-top: -90px;
+  z-index: -1;
+  background-image: url(../img/next-danke.png);
+  height: 265px;
+  width: 76%;
+  opacity: 0.2;
+}
+
+.hover-nav-quellen:after{
+  content:"";
+  left: calc(10% + 80px);
+
+  position: absolute;
+  margin-top: -90px;
+  z-index: -1;
+  background-image: url(../img/next-Quellen.png);
+  height: 265px;
+  width: 76%;
+  opacity: 0.2;
 }

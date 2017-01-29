@@ -27,11 +27,16 @@
           <p class="author">André Fritzinger</p>
           <h2>Storyboard und Animatic</h2>
           <p>Vor dem eigentlichen Trailerdreh gab es eine Planungsphase. In dieser Zeit wurde ein Storyboard und ein Animatic erstellt. Das Storyboard ist ein visuelles Drehbuch und das Animatic ist die animierte Form dessen, zum Teil auch schon mit Musik und Sounds unterlegt.</p>
-          <video src="img/storyboreds.mp4" poster="" controls type="video/mp4" onclick="this.play()" class="full-width full-height">
-            Ihr Browser kann dieses Video nicht wiedergeben.<br/>
-            Dieser Film zeigt eine Demonstration des video-Elements.
-            Sie können ihn unter <a href="#">Link-Addresse</a> abrufen.
-          </video>
+          <div class="videoundbuttondiv">
+            <button id="animatic-btn" class="video-play" ></button>
+            <video src="img/storyboreds.mp4" poster="" type="video/mp4" id="animatic" class="full-width full-height">
+              Ihr Browser kann dieses Video nicht wiedergeben.<br/>
+              Dieser Film zeigt eine Demonstration des video-Elements.
+              Sie können ihn unter <a href="#">Link-Addresse</a> abrufen.
+            </video>
+          </div>
+          <span style="color:red;	">Das Ding tut echt dem Auge weh. Kann sich jemand erbarmen und die paar Szenen neu zeichnen?</span>
+
           <p>Es wurde sich gegen das Animatic entschieden, da für diesen Dreh ein voll ausgebauter Prototyp von nöten wäre und zudem nicht Sommer ist.</p>
         </div>
       </div>
@@ -87,5 +92,7 @@
   </div>
 
   <script src="js/navigation.js"></script>
+  <script src="js/player.js"></script>
+
 </body>
 </html>
