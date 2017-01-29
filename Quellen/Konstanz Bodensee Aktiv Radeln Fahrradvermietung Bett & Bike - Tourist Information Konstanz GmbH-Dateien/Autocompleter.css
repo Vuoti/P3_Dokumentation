@@ -1,0 +1,56 @@
+/* Styles for Mootools version */
+ul.autocompleter-choices
+{
+	position:				absolute;
+	margin:					5px 0 0 1px;	
+	padding:				0;
+	list-style:				none;
+	border:					none;	
+	text-align:				left;
+	font-family:			"Trebuchet MS", Verdana;
+	z-index:				999;
+	background-color:		#fff;
+	font-size: 	0.8125em;
+	width: 217px !important;
+}
+
+ul.autocompleter-choices li
+{
+	position:				relative;
+	margin:					0;
+	padding:				0 0 0 12px;
+	display:				block;
+	float:					none !important; 
+	cursor:					pointer;
+	font-weight:			normal;
+	white-space:			nowrap;
+	font-size:				1em;
+	line-height:			1.5em;
+}
+
+ul.autocompleter-choices li.autocompleter-selected
+{
+	background-color:		#444;
+	color:					#fff;
+}
+
+ul.autocompleter-choices span.autocompleter-queried
+{
+	display:				inline;
+	float:					none;
+	font-weight:			bold;
+	margin:					0;
+	padding:				0;
+}
+
+ul.autocompleter-choices li.autocompleter-selected span.autocompleter-queried
+{
+	color:					#9FCFFF;
+}
+/* Shared style for all 3 frameworks */
+input.autocompleter-loading
+{
+	background-image:		url(images/spinner.gif);
+	background-repeat:		no-repeat;
+	background-position:	right 50%;
+}

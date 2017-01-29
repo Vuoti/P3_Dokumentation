@@ -1,0 +1,2906 @@
+.falle {
+	display:none; /* SPAM-Falle: Feld email in Bewertungen(Rating) */
+}
+
+@media screen {
+
+/* #### BOXEN #### */
+
+/* ++++++++++++++++ GRUNDDIMENSIONEN ++++++++++++++++++ */
+
+.container_large /* komplette Bildschirmbreite */
+{
+	width:98%;
+	margin:1% auto;
+}
+
+.container /* für Inhalt genutzter Mittelbereich */
+{
+	max-width:1225px;
+	margin:1% auto;
+}
+
+.container_il /* für Inhalt linker Mittelbereich - 1225px */
+{
+	width:98%;
+	float:left;
+	margin:.5%;
+}
+
+.container_top
+{
+	width:98%;
+	float:left;
+	margin:.5%;
+}
+
+.container_ir /* für Inhalt rechter Mittelbereich (Werbung, externe Websites) */
+{
+	display:none;
+}
+
+.container_google_advertising /* für Inhalt rechter Mittelbereich (Werbung, externe Websites) */
+{
+	width:305px;
+	float:left;
+	margin:.5%;
+	padding:.5%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+}
+
+/* ++++++++++++++++ INHALTSCONTAINER ++++++++++++++++++ */
+
+header /* Kopfzeile - 635px */
+{
+	float:left;
+	background:#FFFFFF;
+	width:100%;
+	height:auto; 
+	padding:0; 
+	-webkit-box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+	box-sizing:border-box; 
+	border-bottom:5px solid #FFFFFF;     
+}
+
+
+.cluster /* div-class - Themengruppe auf der Startseite - 555px - 1225px */
+{
+	float:left;
+	width:98%;
+	height:auto;
+	background-color: rgba(255,255,255,0.8);
+	margin:1%;
+	padding:1% 2%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	box-shadow:5px 10px 15px rgba(33,66,99,4);
+	}
+
+
+section /* horizontaler Inhaltsbereich ("Zeile") */
+{
+	float:left;
+	width:98%;
+	background-color: rgba(255,255,255,0.8);
+	font-weight:600;
+	text-shadow:1px 1px 0 #FFFFFF;
+	margin:1% 1%;
+	padding:1% 2%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	box-shadow:5px 10px 15px rgba(33,66,99,4);
+	}
+
+.transparent /* section-class - transparente Section */
+{
+	background-color: rgba(255,255,255,0.0);
+	}
+
+.halftransparent /* section-class - teiltransparente Spalte - 555px */
+{
+	float:left;
+	width:98%;
+	background-color: rgba(255,255,255,0.8);
+	margin:1% 1%;
+	padding:1% 2%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	box-shadow:5px 10px 15px rgba(33,66,99,4);
+	}
+
+.easysearch /* Mittelteil mit EQQS auf der Startseite */
+{
+/*	display:none;
+*/
+	float:left;
+	width:58%;
+	background-color: rgba(255,255,255,0.0);
+	color: #FFF;
+	font-weight:700;
+	text-align:center;
+	margin:2% 20%;
+	padding:1% 1%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	box-shadow:5px 10px 15px rgba(33,66,99,4);
+	}
+
+	
+.columns /* enthält einen Themenbereich ("theme") auf der Startseite - 955px */
+{
+	float:left;
+	width:20%;
+	background:white;
+	margin-right:1%;
+	margin-left:1%;
+	margin-bottom:1%;
+	padding:1%;
+	position:relative; 	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border-radius:15px;
+	box-shadow:0 0 5px rgba(0,0,0,.05);
+	}
+	
+.contact_columns /* - 955px */ 
+{
+	float:left;
+	width:98%;
+	background-color: rgba(255,255,255,0.8);
+	font-weight:700;
+	margin-bottom:1%;
+	padding:1%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	box-shadow:5px 10px 15px rgba(33,66,99,4);
+	}
+
+.contact_form /* - 715px */
+{
+	float:left;
+	width:98%;
+	background-color: rgba(255,255,255,0.8);
+	font-weight:700;
+	margin-bottom:1%;
+	padding:1%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	box-shadow:5px 10px 15px rgba(33,66,99,4);
+	}
+
+.columns_events_search /* - 715px */ 
+{
+	float:left;
+	width:98%;		
+	margin-right:1%;
+	margin-left:1%;
+	margin-bottom:1%;
+	padding:1%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	box-shadow:5px 10px 15px rgba(33,66,99,4);
+	}
+
+.columns3 /* - 635px - 715px */ 
+{
+	float:left;
+	width:98%;
+	background-color: rgba(255,255,255,0.8);
+	font-weight:700;
+	margin-bottom:1%;
+	padding:1%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	box-shadow:5px 10px 15px rgba(33,66,99,4);
+	}
+
+
+.theme /* section-class - enthält die Icons auf der Startseite - 955px */
+{
+	-moz-box-shadow: 5px 5px 10px #99CCFF;
+	-webkit-box-shadow: 5px 5px 10px #99CCFF;
+	box-shadow: 5px 5px 10px #99CCFF;
+	float:left;
+	background: #cfe7fa; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjY2ZlN2ZhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzYzOTNjMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(45deg,  #cfe7fa 0%, #6393c1 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#cfe7fa), color-stop(100%,#6393c1)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg,  #cfe7fa 0%,#6393c1 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg,  #cfe7fa 0%,#6393c1 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg,  #cfe7fa 0%,#6393c1 100%); /* IE10+ */
+	background: linear-gradient(45deg,  #cfe7fa 0%,#6393c1 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+	padding:1%;
+	margin:1%;
+	width:20%;
+	display:block;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border-radius:10px;
+	}
+
+.theme_wind /* enthält den Themenbereich Sturmwarnung auf der Startseite - wird mangels RWD abgeschaltet < 635px */
+{
+	display:none;
+	}
+
+.theme_wasser /* enthält den Themenbereich Wasserpegel auf der Startseite - wird mangels RWD abgeschaltet < 1225px */
+{
+	display:none;
+	}
+
+#feedback /* Login auf der Startseite > 715px */
+{ 
+	display: none;
+	height: 104px; 
+	width: 104px; 
+	left: 92%;
+	position: fixed; 
+	top: 35%; 
+	z-index: 1000;
+	transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg); 
+	-moz-transform: rotate(-15deg); 
+	-o-transform: rotate(-15deg); 
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	}
+
+.tour_profil /* enthält die Profilanzeige bei den Wanderwegen - wird mangels RWD abgeschaltet < 715px */
+{
+	display:none;
+	}
+
+.searchdetails_gallery /* enthält 4 Bilder auf der Detailseite */
+{
+	float:left;
+	width:98%;
+	margin:1% 1%;
+	}
+
+.searchdetails_mobility /* enthält Mobilitäts-Links auf der Detailseite */
+{
+	width:96%;
+	float:left;
+	margin: 2% 2%;
+	padding:0 0;
+	height:auto;
+	}
+
+.objectLinks /* enthält die weiterführenden Links auf der Detailseite */
+{
+	float:left;
+	width:96%;
+	line-height:2;
+	margin:2% 2%;
+	}
+
+.ThreeColumnTable /* Formatierung beim Fahrplan */
+{
+	text-align:left;
+	width:98%;
+	float:left;
+	padding:1%;
+	font-size: 0.7em;
+	color: #505050;
+    font-family: Verdana,Arial,sans-serif;
+	border:1px solid #666;	
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	}
+
+
+footer /* Fusszeile */
+{
+	float:left;
+	background:#336699;
+	width:100%; 
+	text-align:center;
+	font-size: 0.9em;
+	color: #FFF;
+	padding: 1% 1%;
+	-webkit-box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+	box-sizing:border-box;
+}
+
+/* ++++++++++++++++ FORMATIERUNGEN BEIM RATING ++++++++++++++++++ */
+
+#div0 
+{
+	float:left;	
+	width:100%;
+ 	padding:0% 4% 0% 4%;
+	margin:.5% 0 .5% 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	}
+
+#div0 section 
+{
+	float:left;
+	width:100%;
+	background-color: rgba(255,255,255,0.8);
+	margin-bottom:1%;
+	padding:1%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	box-shadow:5px 10px 15px rgba(33,66,99,4);
+	}
+
+#div0 section p 
+{
+	text-align:left;
+	margin-top:0.4em;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:.4em;
+	}
+
+#content 
+{
+	float:left;	
+	width:100%;
+ 	padding:0% 4% 0% 4%;
+	margin:.5% 0 .5% 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	}
+
+table { border-collapse:collapse; text-align: left; }
+
+.tab_datei 
+{ 
+	width:99%; 
+	background-color: rgba(255,255,255,0.8);
+	border-collapse:collapse; 
+	}
+
+.tab_datei input { width:97%; } 
+
+#bewertung   { width:192px; }
+#aliasname   { width:188px; }
+#schlagzeile { width:97%; }
+#kommentar   { width:97%; }
+
+#tab_rubriken 
+{
+	margin-top:2px;
+	margin-left:7px;
+	margin-bottom:0px;
+	border-color:#D0D0F0;
+	}
+
+#td_rubriken 
+{
+	width:43px;
+	padding-top:2px;
+	padding-right:9px;
+	}
+
+.edit_menu 
+{
+	background-color: rgba(255,255,255,0.8);
+ 	width:91%;
+  	height:15px;
+  	cursor:pointer;
+  	padding:3px;
+ 	padding-left:8px;
+	margin:2px;
+	margin-bottom:4px;
+	}
+
+.tab_div p, input, select	{ font-family: Verdana,Arial,sans-serif; color: #505050; }
+
+.tab_reiter tr, td	{ font-family: Verdana,Arial,sans-serif; color: #505050; }
+
+.tab_reiter 
+{ 
+	border: 0; 
+	background-color: rgba(255,255,255,0.8);
+	width:560px; 
+	height:auto; 
+	}
+
+.tab_zelle	
+{ 
+	border: 0;
+	width: 70px;
+	height: 25px;
+	cursor:pointer;
+	text-align: center; 
+	background-color: rgba(255,255,255,0.8);
+  	padding:0px;
+	}
+
+#TabLink1 { font-weight: bold; }
+#zelle1	{ background-color: rgba(255,255,255,0.8); }
+#zelle2	{ border-left: 2px solid white }
+#zelle3	{ border-left: 2px solid white }
+#zelle4	{ border-left: 2px solid white }
+#zelle5	{ border-left: 2px solid white }
+#zelle_leer { border: 0; width: auto; /*width: 210px;*/ }
+
+.tab_content_td 
+{ 
+	background-color: rgba(255,255,255,0.8);
+	border: 1px solid #DADADA;
+	border-top: 0; 
+	width: 560px; 
+	height: auto; 
+	padding:5px;
+	}
+
+.bild_div { border:thin solid #eeeeee; margin:5px; visibility:hidden; display:none; text-align:center; width: 97%; }
+#bild1_div { visibility:visible; display:block; }
+
+/*============================= DEFINITION FÜR GOOGLE MAP===========================*/
+
+#map-canvas, #map_canvas {
+  height: 100%;
+}
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 65%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+}
+
+
+/* ++++++++++++++++ LAYOUTWECHSEL ++++++++++++++++++ */
+
+.vacancy_year /* enthält den großen Belegungsplan für Jahre > 715px, dann vacancy_month */
+{
+	display:none;
+	}
+
+.spaltenwechsel_permanent {
+	float:left;
+	width:96%;
+	margin:0 2%;
+	margin-bottom: 10px;
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+	-moz-column-width: 200px;
+	-webkit-column-width: 200px;
+	column-width: 200px;
+	text-align: left;
+	column-gap:3%;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	}
+
+.spaltenwechsel /* - 715 px */ 
+{
+	display:none;
+	}
+
+.css3de-spaltenwechsel /* Fließtext auf der Detailseite - 715px */
+{
+	display:none;
+	}
+
+
+/* #### Schriften / Fonts / Darstellungen ####*/
+
+
+/* ++++++++++++++++ HINTERGRÜNDE ++++++++++++++++++ */
+
+body 
+{
+	font-size:0.8em;	
+	font-family:Verdana, Arial, sans-serif;
+	overflow-x:hidden;
+	position:absolute;
+	width:100%;
+	color:#444;
+}
+
+/* ++++++++++++++++ SCHRIFTEN, ZEICHEN ++++++++++++++++++ */
+
+.header_text_place 
+{
+	float:left;
+	}
+
+.header_icons_place 
+{
+	width:110px;
+	float:right;
+	}
+
+h1 
+{
+	font-size: 1.2em;
+	color: #444;
+	margin: 0 1.5%;
+	}
+
+h2 
+{
+	font-size: 1em;
+	color:#FFF;
+	text-decoration:bold;
+	text-align:center;
+	text-shadow:6px 1px 15px #336699;
+	margin-bottom:0.8em;
+	}
+
+h3 
+{
+	font-size: 0.8em;
+	color:#336699;
+	text-decoration:bold;
+	text-align:center;
+	text-shadow:6px 1px 15px #99CCFF;
+	margin-bottom:0.8em;
+	margin-left:1.75%;	
+	margin-right:1.75%;
+	}
+
+h4 
+{
+	font-size: 0.7em;
+	color:#336699;
+	text-shadow:4px 1px 15px #99CCFF;
+	margin-bottom:0.6em;
+	}
+
+h5 
+{
+	font-size: 1em;
+	color:#336699;
+	text-decoration:bold;
+	text-align:center;
+	text-shadow:6px 1px 15px #FFF;
+	margin-top:0.5em;
+	margin-bottom:0.8em;
+	}
+
+h6 
+{
+	font-size: 1em;
+	color:#FFFFFF;
+	text-decoration:bold;
+	text-align:center;
+	margin-top:15px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+	}
+
+.note 
+{
+	text-align:center;
+	font-size:.9em;
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:.4em;
+	}
+
+.note_left 
+{
+	text-align:left;
+	font-size:.9em;
+	margin-top:.6em;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:.6em;
+	}
+	
+.note_center
+{
+	text-align:center;
+	font-size:.8em;
+	margin:5px 5px;
+	}
+	
+.note_copyright
+{
+	text-align:left;
+	font-size:.7em;
+	margin-top:15px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:.6em;
+	}
+
+.center { text-align: center; }
+
+.center_vspace_small 
+{
+	text-align:center;
+	margin-top:0.4em;
+	margin-left:0.2em;
+	margin-right:0.2em;
+	margin-bottom:0.4em;
+	}
+
+.center_vspace_10er
+{
+	text-align:center;
+	line-height:200%;
+	}
+
+.center_vspace_large 
+{
+	text-align:center;
+	margin-top:15px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:15px;
+	}
+.error {
+ color:red;
+ text-align:center;
+}
+
+.left_vspace_small 
+{
+	text-align:left;
+	margin-top:0.4em;
+	margin-left:0.2em;
+	margin-right:0.2em;
+	margin-bottom:0.4em;
+	}
+
+.left_vspace_small_ir 
+{
+	text-align:left;
+	text-decoration:bold;
+	vertical-align: middle;
+	margin-left:0.2em;
+	margin-right:0.2em;
+	}
+
+.icon_text 
+{
+	text-align:center;
+	color:white;
+	text-decoration:bold;
+	font-size:0.7em;
+	margin:2px 2px;
+	}
+
+.left_criteria 
+{
+	text-align:left;
+	color:black;
+	font-size:0.8em;
+	margin:15px 10px;
+	}
+
+.left_criteria_none 
+{
+	display: none;
+}
+
+.center_criteria 
+{
+	text-align:center;
+	color:black;
+	font-size:0.8em;
+	margin:15px 10px;
+	}
+
+.creditcard /* Anordnung der Kreditkarten auf der Detailseite */
+{
+	float:left;
+	width: 98%;
+	margin:5px 0;
+	}
+
+.service  /* u.a. beim "Back to top"-Link */ 
+{
+	float:right;
+	}
+
+/* +++ FORMATIERUNGEN BEIM FAHRPLAN +++ */
+
+.TabLeft, .TabRight, .TabMiddle 
+{
+	display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+	}
+
+.TabLeft 
+{
+	width:22%;
+	text-align:center;
+	}
+
+.TabMiddle 
+{
+	width:20%;
+	text-align:center;
+	}
+	
+.TabRight
+{
+	width:58%;
+	text-align:left;
+	}
+	
+.TableRow 
+{
+	float:left;
+	display:block;
+	width:100%;
+	margin-bottom:1%;
+	}
+
+
+/* ++++++++++++++++ LINK-DARSTELLUNGEN ++++++++++++++++++ */
+
+a:link { font-weight:normal; text-shadow:1px 1px 0 #FFFFFF; color:#444; text-decoration:underline; }
+a:visited { font-weight:normal; text-shadow:1px 1px 0 #FFFFFF; color:#444; text-decoration:underline; }
+a:focus { font-weight:normal; text-shadow:1px 1px 0 #FFFFFF; color:#444; text-decoration:underline; }
+a:hover { font-weight:normal; text-shadow:1px 1px 0 #FFFFFF; color:red; text-decoration:underline; }
+a:active { font-weight:normal; text-shadow:1px 1px 0 #FFFFFF; color:#444; text-decoration:underline; }
+
+header a:link { font-weight:normal; color:#444; text-decoration:underline; }
+header a:visited { font-weight:normal; color:#444; text-decoration:underline; }
+header a:focus { font-weight:normal; color:#444; text-decoration:underline; }
+header a:hover { font-weight:normal; color:#444; text-decoration:underline; }
+header a:active { font-weight:normal; color:#444; text-decoration:underline; }
+
+footer a:link { font-weight:normal; text-shadow:0 0 0 #FFFFFF; color:#FFF; text-decoration:underline; }
+footer a:visited { font-weight:normal; text-shadow:0 0 0 #FFFFFF; color:#FFF; text-decoration:underline; }
+footer a:focus { font-weight:normal; text-shadow:0 0 0 #FFFFFF; color:#FFF; text-decoration:underline; }
+footer a:hover { font-weight:normal; text-shadow:0 0 0 #FFFFFF; color:red; text-decoration:underline; }
+footer a:active { font-weight:normal; text-shadow:0 0 0 #FFFFFF; color:#FFF; text-decoration:underline; }
+
+.searchdetails_mobility p 
+{
+	width:100%;
+	float:left;
+	margin: 5px 0;
+	}
+
+#feedback a 
+{ 
+	display: none; 
+	background: #f00; 
+	height: 20px; 
+	width: 70px;
+	vertical-align: middle;
+	padding: 8px 16px;
+	color: #fff; 
+	font-family: Arial, sans-serif; 
+	font-size: 17px; 
+	text-decoration: none; 
+	border-bottom: solid 1px #333; border-left: solid 1px #333; border-right: solid 1px #fff;
+	}
+
+#feedback a:hover 
+{ 
+	background: #06c; 
+	}
+
+.tab_div a 
+{ 
+	font-family: Verdana,Arial,sans-serif; 
+	font-weight: normal; 
+	}
+
+.tab_div a:active 
+{ 
+	font-weight: bold; 
+	}
+
+/* Rating */
+#backLink { margin:0px; color:#336699; margin-bottom:5px; text-align:right; width:95%; }
+#backLink a { text-decoration:none; }            
+#info { color:#444444; margin-top:2px; margin-bottom:4px; padding-left:5px; }
+#btnSenden { margin:2px; width:85px; height:27px; }
+
+
+/* ++++++++++++++ Buttons mit Links ++++++++++++++ */
+
+.searchresult_ObjectLink 
+{
+	-moz-box-shadow: 3px 3px 10px #99CCFF;
+	-webkit-box-shadow: 3px 3px 10px #99CCFF;
+	box-shadow: 3px 3px 10px #99CCFF;
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NiZTNmMSIgc3RvcC1vcGFjaXR5PSIwLjUiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjOGRjYmY1IiBzdG9wLW9wYWNpdHk9IjAuNSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjY2JlM2YxIiBzdG9wLW9wYWNpdHk9IjAuNSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left, rgba(203,227,241,0.5) 0%, rgba(141,203,245,0.5) 50%, rgba(203,227,241,0.5) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(203,227,241,0.5)), color-stop(50%,rgba(141,203,245,0.5)), color-stop(100%,rgba(203,227,241,0.5))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(203,227,241,0.5) 0%,rgba(141,203,245,0.5) 50%,rgba(203,227,241,0.5) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(203,227,241,0.5) 0%,rgba(141,203,245,0.5) 50%,rgba(203,227,241,0.5) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(203,227,241,0.5) 0%,rgba(141,203,245,0.5) 50%,rgba(203,227,241,0.5) 100%); /* IE10+ */
+	background: linear-gradient(to right, rgba(203,227,241,0.5) 0%,rgba(141,203,245,0.5) 50%,rgba(203,227,241,0.5) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80cbe3f1', endColorstr='#80cbe3f1',GradientType=1 ); /* IE6-8 */
+	padding:0;
+	margin:10px 5px;
+	float:left;
+	text-align:center;
+	vertical-align:middle;
+/*	text-decoration:none;
+*/	width:25%;
+	height:auto;
+	display:block;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border-radius:15px;
+	text-shadow:0 1px 1px rgba(0,0,0,0.4);
+	}
+
+.searchresult_ObjectLink a 
+{
+	padding:1%;
+	text-align:center;
+	color:#336699;
+	text-decoration:none;
+	width:100%;
+	display:block;
+	text-shadow:0 1px 1px rgba(0,0,0,0.4)
+	}
+
+.searchresult_ObjectLink_tabrow 
+{
+	-moz-box-shadow: 3px 3px 10px #99CCFF;
+	-webkit-box-shadow: 3px 3px 10px #99CCFF;
+	box-shadow: 3px 3px 10px #99CCFF;
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NiZTNmMSIgc3RvcC1vcGFjaXR5PSIwLjUiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjOGRjYmY1IiBzdG9wLW9wYWNpdHk9IjAuNSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjY2JlM2YxIiBzdG9wLW9wYWNpdHk9IjAuNSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left, rgba(203,227,241,0.5) 0%, rgba(141,203,245,0.5) 50%, rgba(203,227,241,0.5) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(203,227,241,0.5)), color-stop(50%,rgba(141,203,245,0.5)), color-stop(100%,rgba(203,227,241,0.5))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(203,227,241,0.5) 0%,rgba(141,203,245,0.5) 50%,rgba(203,227,241,0.5) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(203,227,241,0.5) 0%,rgba(141,203,245,0.5) 50%,rgba(203,227,241,0.5) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(203,227,241,0.5) 0%,rgba(141,203,245,0.5) 50%,rgba(203,227,241,0.5) 100%); /* IE10+ */
+	background: linear-gradient(to right, rgba(203,227,241,0.5) 0%,rgba(141,203,245,0.5) 50%,rgba(203,227,241,0.5) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80cbe3f1', endColorstr='#80cbe3f1',GradientType=1 ); /* IE6-8 */
+	padding:0;
+	margin:10px 5px;
+	float:left;
+	text-align:center;
+	vertical-align:middle;
+/*	text-decoration:none;
+*/	width:80%;
+	height:auto;
+	display:block;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border-radius:15px;
+	text-shadow:0 1px 1px rgba(0,0,0,0.4);
+	}
+
+.searchresult_ObjectLink_tabrow a 
+{
+	padding:1%;
+	text-align:center;
+	color:#336699;
+	text-decoration:none;
+	width:100%;
+	display:block;
+	text-shadow:0 1px 1px rgba(0,0,0,0.4)
+	}
+
+.busline 
+{
+	-moz-box-shadow: 3px 3px 10px #99CCFF;
+	-webkit-box-shadow: 3px 3px 10px #99CCFF;
+	box-shadow: 3px 3px 10px #99CCFF;
+	background: #ffffff;
+	padding:0;
+	margin:1.5% 1%;
+	float:left;
+	text-align:center;
+	vertical-align:middle;
+	text-decoration:none;
+	width:98%;
+	height:auto;
+	display:block;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border-radius:15px;
+	text-shadow:0 1px 1px rgba(0,0,0,0.4);
+	}
+
+.busline a 
+{
+	padding:5px;
+	margin:0 5px;
+	text-align:center;
+	color:#000000;
+	text-decoration:none;
+	width:96%;
+	display:block;
+	text-shadow:0 1px 1px rgba(0,0,0,0.4)
+	}
+
+
+/* #### Images #### */
+
+/* ++++++++++++++++ Grafiken ++++++++++++++++++ */
+img 
+{
+	margin:0 3px;
+	}
+
+.img_icon 
+{
+	width:80%;
+	float:center;
+	height:auto;
+	margin:5px 5px;
+	}
+
+.logo_content-depot
+{
+	width:80px;
+	height:auto;
+	float:left;
+	margin:5px 15px 5px 5px;
+	}
+
+.imgout 
+{
+	width:40%;
+	float:left;
+	height:auto;
+	margin:0 10px 5px 0;
+	}
+
+.quiz 
+{
+	width:60%;
+	height:auto;
+	vertical-align: middle;
+}
+
+.imgnull 
+{
+	heigth:2px;
+	float:left;
+	width:auto;
+	}
+
+.imgTop 
+{
+	float:right;
+	width:45%;
+	height:auto;
+	max-height: 50px;
+    max-width: 50px;
+	vertical-align:middle;
+	display:inline;
+	margin-right:2%;
+	}
+
+.imgTopEvents 
+{
+	float:right;
+	width:10%;
+	height:auto;
+	max-height: auto;
+    max-width: 22px;
+	display:inline;
+	margin:0 2% 2% 0;
+	}
+
+.imgHeader 
+{
+	width:15%;
+	height:auto;
+	max-height: 50px;
+    max-width: 50px;
+	vertical-align:middle;
+	display:inline;
+	margin-right:2%;
+	}
+	
+.imgTable 
+{
+	width:50%;
+	height:auto;
+	max-height: 40px;
+    max-width: 40px;
+    vertical-align: middle;
+	}
+
+.tomec 
+{
+	width:70px;
+	float:right;
+	margin: 0 0.2%;
+	height:auto;
+	}
+
+.languages 
+{
+	width:auto;
+	float:right;
+	margin:5px 5px 5px 0;
+	height:28px;
+	}
+
+.languages_center 
+{
+	width:auto;
+	float:center;
+	margin:0 3px 3px 0;
+	height:25px;
+	}
+
+.map_list 
+{
+	width:auto;
+	float:right;
+	margin:3px 2px 2px 0;
+	height:35px;
+	}
+
+.nearby 
+{
+	width:auto;
+	float:right;
+	margin:3px 10px 2px 0;
+	height:35px;
+	}
+	
+.pdf 
+{
+	width:auto;
+	float:left;
+	vertical-align: middle;
+	margin:0 3px 0 0;
+	height:25px;
+	}
+
+.erv /* Reiseversicherung großes Bild, display > 555px */
+{
+	display:none;
+	}
+
+.erv_small /* Reiseversicherung kleines Bild display < 55px */
+{
+	display:block;
+	}
+
+.skew 
+{
+	position:relative;
+	top:5px;
+	left:5px;
+	width:80%;
+
+	-webkit-transform: skew(8deg, -8deg);
+	-moz-transform: skew(8deg, -8deg);
+	-ms-transform: skew(8deg, -8deg);
+	-o-transform: skew(8deg, -8deg);
+	transform: skew(8deg, -8deg);
+
+	z-index:2;
+	}
+
+.skew_shadow 
+{
+	position:absolute;
+	opacity: 0.4;
+	filter: alpha(opacity=40); /* For IE8 and earlier */
+	top:20px;
+	left:20px;
+	width:75%;
+
+	-webkit-transform: skew(-8deg, 8deg);
+	-moz-transform: skew(-8deg, 8deg);
+	-ms-transform: skew(-8deg, 8deg);
+	-o-transform: skew(-8deg, 8deg);
+	transform: skew(-8deg, 8deg);
+
+	z-index:1;
+	}
+
+.stars 
+{
+	width:10px;
+	margin:0;
+	height:auto;
+	}
+
+.phone 
+{
+	float:none;
+    height: auto;
+    margin: 0 5px 3px 0;
+	padding:0;
+    vertical-align: middle;
+    width: 25px;
+	}
+
+.pictogram 
+{
+	heigth:30px;
+	width:auto;
+	}
+
+.objecttype 
+{
+	width:40px;
+	float:left;
+	margin: 5px 10px;
+	height:auto;
+	}
+
+.icon 
+{
+	text-align:center;
+	margin:3px 0 0 0;
+	height:30px;
+	width:auto;
+	}
+
+.piktogramm
+{
+	text-align:center;
+	margin:0 0;
+	width:80%;	
+	height:auto;
+	}
+
+.rating 
+{
+	display:none;
+	}
+
+.gallery 
+{
+	width:48%;
+	float:left;
+	margin: 1% 1%;
+	height:auto;
+	}
+
+/* ++++++++ FORMATIERUNG BEIM RATING **** */
+
+.bild_img 
+{
+	border: 1px solid #eaeaea; 
+	width:480px;
+	height:auto;
+	margin-left:0px;
+	margin-top:3px;
+	margin-bottom:0px;
+  	position:relative; top:2px; left:-12px;
+	}
+
+.bild_delete_icon 
+{ 
+	visibility:visible;
+	height:auto; 
+	margin-left:0px; 
+	margin-right:0px; 
+	margin-bottom:0px; 
+	cursor:pointer; 
+	position:relative; top:0px; left:492px;
+	}
+
+.img_div { margin-top:2px; margin-left:0px; margin-bottom:0px; text-align:center; }
+.bild_label { font-weight: bold; color: #505060; text-align:center; vertical-align:bottom; height:18px; margin:0px; }
+.bild_neues { margin-top:5px; margin-bottom:2px; text-align:left; padding-left:43px; }
+.bild_infos { margin-top:0px; margin-bottom:5px; text-align:left; padding-left:45px; border:0; }
+.bild_titel { width:69px; float:left; padding-top:3px; }
+.bild1_copyright { width:69px; float:left; padding-top:3px; }
+
+.bild_div_hr 
+{
+  	border-bottom: 1px solid #bfbfbf; 
+  	border-collapse: collapse;
+  	width: 90%;
+  	height: 0px;
+  	margin-left:22px;
+  	margin-top:8px;
+  	margin-bottom:8px;
+	}
+}
+
+@media screen and (min-width:475px) 
+{
+body {	
+	background-image:url('../images/background/default.jpg');
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+/* ++++++++++++++++ SCHRIFTEN, ZEICHEN ++++++++++++++++++ */
+.left_criteria_none 
+{
+	display:block;
+	text-align:left;
+	color:black;
+	font-size:0.8em;
+	margin:15px 10px;
+	}
+
+h1 
+{
+	font-size: 1.3em;
+	margin: 0 1.5%;
+	}
+
+h2 
+{
+	font-size: 1.1em;
+	color:#FFF;
+	text-decoration:bold;
+	text-align:center;
+	text-shadow:7px 2px 18px #336699;
+	margin-bottom:0.9em;
+	}
+
+h3 
+{
+	font-size: 0.9em;
+	color:#336699;
+	text-decoration:bold;
+	text-align:center;
+	text-shadow:7px 2px 18px #99CCFF;
+	margin-bottom:0.9em;
+	margin-left:1.75%;	
+	margin-right:1.75%;
+	}
+	
+h4 
+{
+	font-size: 0.7em;
+	color:#336699;
+	text-shadow:6px 1px 16px #99CCFF;
+	margin-bottom:0.9em;
+	}
+
+/* ++++++++++++++++ GRAFIKEN ++++++++++++++++++ */
+
+.icon 
+{
+	height:40px;
+	}
+
+.icon_text 
+{
+	font-size:0.75em;
+	margin:2px 2px;
+	}
+
+.imgTable 
+{
+	max-height: 40px;
+    max-width: 60px;
+    vertical-align: middle;
+	}
+
+}
+
+
+
+@media screen and (min-width:555px) 
+{
+
+/* ++++++++++++++++ INHALTSCONTAINER ++++++++++++++++++ */
+
+.cluster { width:48%; }
+
+.halftransparent { width:48%; }
+
+/* ++++++++++++++++ GRAFIKEN ++++++++++++++++++ */
+
+.erv 
+{
+	display:block;
+	}
+
+.erv_small 
+{
+	display:none;
+	}
+
+}
+
+@media screen and (min-width:635px) 
+{
+
+/* ++++++++++++++++ HINTERGRÜNDE ++++++++++++++++++ */
+
+body 
+{
+	font-size:0.85em;
+	}
+
+/* ++++++++++++++++ INHALTSCONTAINER ++++++++++++++++++ */
+
+header 
+{
+	padding-top:15px;	
+	padding-bottom:0;	
+	}
+
+.theme_wind /* enthält den Themenbereich Sturmwarnung auf der Startseite - wird mangels RWD abgeschaltet < 620px */
+{
+	-moz-box-shadow: 5px 5px 10px #99CCFF;
+	-webkit-box-shadow: 5px 5px 10px #99CCFF;
+	box-shadow: 5px 5px 10px #99CCFF;
+	float:left;
+	background: #cfe7fa; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjY2ZlN2ZhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzYzOTNjMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(45deg,  #cfe7fa 0%, #6393c1 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#cfe7fa), color-stop(100%,#6393c1)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg,  #cfe7fa 0%,#6393c1 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg,  #cfe7fa 0%,#6393c1 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg,  #cfe7fa 0%,#6393c1 100%); /* IE10+ */
+	background: linear-gradient(45deg,  #cfe7fa 0%,#6393c1 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+	padding:1%;
+	margin:1%;
+	width:20%;
+	display:block;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border-radius:10px;
+	}
+
+.columns3 
+{
+	float:left;
+	width:48%;
+	margin-right:1%;
+	margin-left:1%;
+	margin-bottom:1%;
+	padding:1%;
+	}
+
+/* ++++++++++++++++ SCHRIFTEN, ZEICHEN ++++++++++++++++++ */
+
+h4 
+{
+	font-size: 0.7em;
+	color:#336699;
+	text-shadow:6px 1px 16px #99CCFF;
+	margin-bottom:0.8em;
+	}
+
+/* ++++++++++++++++ BUTTONS MIT LINK ++++++++++++++++++ */
+
+.searchresult_ObjectLink 
+{
+	width:20%;
+	}		
+
+/* ++++++++++++++++ GRAFIKEN ++++++++++++++++++ */
+
+.imgout 
+{
+	width:30%;
+	float:left;
+	height:auto;
+	margin:0 10px 5px 0;
+	}
+
+.gallery 
+{
+	width:30%;
+	}	
+
+}
+
+@media screen and (min-width:715px) 
+{
+
+/* ++++++++++++++++ INHALTSCONTAINER ++++++++++++++++++ */
+
+.contact_form 
+{
+	width:48%;
+	}
+
+.columns_events_search 
+{
+		float:left;
+		width:48%;		
+		margin-right:1%;
+		margin-left:1%;
+		margin-bottom:1%;
+		padding:1%;
+	}
+
+.columns3 
+{
+	float:left;
+	width:30%;
+	margin-right:1%;
+	margin-left:1%;
+	margin-bottom:1%;
+	padding:1%;
+	}
+
+.tour_profil 
+{
+	display:block;
+	}
+
+.ThreeColumnTable 
+{
+	font-size: 1em;
+	}
+
+/* ++++++++++++++++ LAYOUTWECHSEL ++++++++++++++++++ */
+
+.vacancy_month 
+{
+	display:none;
+	}
+
+.vacancy_year {
+		display:block;
+	}
+
+.gallery 
+{
+	width:23%;
+	}	
+
+.spaltenwechsel 
+{
+	display:block;
+	background-color: rgba(255,255,255,0.0);
+	color:#FFF;
+	font-size: 1.0em;
+	font-weight:700;
+	text-align: left;
+	text-shadow:10px 5px 10px #336699;
+	float:left;
+	width:98%;
+	margin:2% 2%;
+	padding:1% 1%;
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+	-moz-column-width: 200px;
+	-webkit-column-width: 200px;
+	column-width: 200px;
+
+	column-gap:3%;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	box-shadow:5px 10px 15px rgba(33,66,99,4)
+	}
+
+.css3de-spaltenwechsel 
+{
+	display:block;
+	float:left;
+	width:96%;
+	margin:5px 2%;
+	margin-bottom: 10px;
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+	-moz-column-width: 200px;
+	-webkit-column-width: 200px;
+	column-width: 200px;
+	text-align: left;
+	column-gap:3%;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	}
+
+/* ++++++++++++++++ SCHRIFTEN, ZEICHEN ++++++++++++++++++ */
+
+h1 
+{
+	font-size: 1.5em;
+	margin: 0 2%;
+	}
+	
+h2 
+{
+	font-size: 1.3em;
+	color:#FFF;
+	text-decoration:bold;
+	text-align:center;
+	text-shadow:9px 4px 23px #336699;
+	margin-bottom:1.1em;
+	}
+	
+h3 
+{
+	font-size: 1.1em;
+	color:#336699;
+	text-decoration:bold;
+	text-align:center;
+	text-shadow:9px 4px 23px #99CCFF;
+	margin-bottom:1.1em;
+	margin-left:2%;	
+	margin-right:2%;
+	}
+	
+h4 
+{
+	font-size: 0.7em;
+	color:#336699;
+	text-shadow:6px 2px 20px #99CCFF;
+	margin-bottom:0.7em;
+	}
+
+.icon_text 
+{
+	font-size:0.8em;
+	margin:2px 2px;
+	}
+
+/* ++++++++++++++++ LINKDARSTELLUNGEN ++++++++++++++++++ */
+
+#feedback 
+{ 
+	display:block;
+	}
+
+#feedback a 
+{ 
+	display:block;
+	}
+
+/* ++++++++++++++++ GRAFIKEN ++++++++++++++++++ */
+
+.imgTable 
+{
+	width:65%;
+	height:auto;
+	max-height: 100px;
+    max-width: 100px;
+    vertical-align: middle;
+	}
+
+.rating 
+{
+	display:block;
+	float:right;;
+	}
+}
+
+@media screen and (min-width:955px) 
+{
+
+/* ++++++++++++++++ INHALTSCONTAINER ++++++++++++++++++ */
+.contact_columns 
+{
+	float:left;
+	width:48%;		
+	margin-right:1%;
+	margin-left:1%;
+	margin-bottom:1%;
+	padding:1%;
+	}
+
+
+.columns /* 5 Spalten */
+{
+	float:left;
+	width:18%;		
+	margin-right:1%;
+	margin-left:1%;
+	margin-bottom:1%;
+	padding:1%;
+	}
+
+.theme /* 5 Spalten */
+{
+	width:18%;		
+	}
+
+.theme_wind /* 5 Spalten */
+{
+	width:18%;		
+	}
+
+/* ++++++++++++++++ SCHRIFTEN, ZEICHEN ++++++++++++++++++ */
+
+h1 
+{
+	font-size: 1.8em;
+	color: #444;
+	margin: 0 2.5%;
+	}
+
+h2 
+{
+	font-size: 1.4em;
+	color:#FFF;
+	text-decoration:bold;
+	text-align:center;
+	text-shadow:10px 5px 25px #336699;
+	margin-bottom:1.2em;
+	}
+
+h3 
+{
+	font-size: 1.2em;
+	color:#336699;
+	text-decoration:bold;
+	text-align:center;
+	text-shadow:10px 5px 25px #99CCFF;
+	margin-bottom:1.2em;
+	margin-left:2.5%;	
+	margin-right:2.5%;
+	}
+	
+h4 
+{
+	font-size: 0.7em;
+	color:#336699;
+	text-shadow:8px 3px 20px #99CCFF;
+	margin-bottom:0.9em;
+	}
+	
+.icon_text 
+{
+	font-size:0.9em;
+	margin:2px 2px;
+	}
+
+
+/* ++++++++++++++++ LINKDARSTELLUNGEN ++++++++++++++++++ */
+	
+#feedback 
+{
+	left: 93%;
+	}
+
+/* ++++++++++++++++ GRAFIKEN ++++++++++++++++++ */
+
+.imgTable 
+{
+	width:80%;
+	height:auto;
+	}
+
+}
+
+
+
+@media screen and (min-width:1225px) 
+{
+
+/* ++++++++++++++++ GRUNDDIMENSIONEN ++++++++++++++++++ */
+
+.container_il /* für Inhalt linker Mittelbereich */
+{
+	width:73%;
+	float:left;
+	}
+
+/* ++++++++++++++++ INHALTSCONTAINER ++++++++++++++++++ */
+.container_ir /* für Inhalt rechter Mittelbereich (Werbung, externe Websites) */
+{
+	display:block;
+	width:290px;
+	float:left;
+	background-color: rgba(255,255,255,0.0);
+	margin:.5%;
+	padding:.5%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+}
+
+.container_top
+{
+	display:none;
+}
+	
+.cluster /* wechselt zu voller Transparenz verbunden mit Farbwechsel von <h5> */
+{
+	background-color: rgba(255,255,255,0.0);
+	}
+
+.theme_wasser /* enthält den Themenbereich Wasserpegel auf der Startseite - wird mangels RWD abgeschaltet < 1125px */
+{
+	-moz-box-shadow: 5px 5px 10px #99CCFF;
+	-webkit-box-shadow: 5px 5px 10px #99CCFF;
+	box-shadow: 5px 5px 10px #99CCFF;
+	float:left;
+	background: #cfe7fa; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjY2ZlN2ZhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzYzOTNjMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(45deg,  #cfe7fa 0%, #6393c1 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#cfe7fa), color-stop(100%,#6393c1)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg,  #cfe7fa 0%,#6393c1 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg,  #cfe7fa 0%,#6393c1 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg,  #cfe7fa 0%,#6393c1 100%); /* IE10+ */
+	background: linear-gradient(45deg,  #cfe7fa 0%,#6393c1 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+	padding:1%;
+	margin:1%;
+	width:18%;
+	display:block;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border-radius:10px;
+	}
+
+/* ++++++++++++++++ SCHRIFTEN, ZEICHEN ++++++++++++++++++ */
+
+h4 
+{
+		font-size: 0.8em;
+		color:#336699;
+		text-shadow:8px 3px 20px #99CCFF;
+		margin-bottom:0.9em;
+	}
+	
+h5 /* wechselt zu weißer Schrift verbunden mit voller Transparenz von ".cluster" */
+{
+	font-size: 1.3em;
+	color:#FFF;
+	text-decoration:bold;
+	text-align:center;
+	text-shadow:9px 4px 23px #336699;
+	margin-bottom:0.8em;
+	}
+
+/* ++++++++++++++++ LINKDARSTELLUNGEN ++++++++++++++++++ */
+
+#feedback 
+{
+	left: 95%;
+	}
+/* ++++++++++++++++ GRAFIKEN ++++++++++++++++++ */
+
+.imgTable {
+	width:auto;
+	height:auto;
+	}
+	
+} 
+
+
+@media print {
+
+/* #### BOXEN #### */
+
+/* ++++++++++++++++ GRUNDDIMENSIONEN ++++++++++++++++++ */
+
+.container_large /* komplette Bildschirmbreite */
+{
+	width:98%;
+	margin:1% auto;
+}
+
+.container /* für Inhalt genutzter Mittelbereich */
+{
+	max-width:1225px;
+	margin:1% auto;
+}
+
+.container_il /* für Inhalt linker Mittelbereich - 1225px */
+{
+	width:98%;
+	float:left;
+	margin:.5%;
+}
+
+.container_ir /* für Inhalt rechter Mittelbereich (Werbung, externe Websites) */
+{
+	width:235px;
+	float:left;
+	background-color: #FFFFFF;
+	margin:.5%;
+	padding:.5%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+}
+
+/* ++++++++++++++++ INHALTSCONTAINER ++++++++++++++++++ */
+
+header /* Kopfzeile - 635px */
+{
+	float:left;
+	background:#FFFFFF;
+	width:100%;
+	height:auto; 
+	padding:0; 
+/*	-webkit-box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+	box-sizing:border-box; 
+	border-bottom:5px solid #000000;    
+	*/
+}
+
+
+.cluster /* div-class - Themengruppe auf der Startseite - 555px - 1225px */
+{
+	float:left;
+	width:98%;
+	height:auto;
+	background-color: #000000;
+	margin:1%;
+	padding:1% 2%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	}
+
+
+section /* horizontaler Inhaltsbereich ("Zeile") */
+{
+	float:left;
+	width:98%;
+	background-color: #FFFFFF;
+	font-weight:600;
+	margin:1% 1%;
+	padding:1% 2%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	}
+
+.transparent /* section-class - transparente Section */
+{
+	background-color: #FFFFFF;
+	}
+
+.halftransparent /* section-class - teiltransparente Spalte - 555px */
+{
+	float:left;
+	width:98%;
+	background-color: #FFFFFF;
+	margin:1% 1%;
+	padding:1% 2%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	}
+
+.easysearch /* Mittelteil mit EQQS auf der Startseite */
+{
+/*	display:none;
+*/
+	float:left;
+	width:58%;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-weight:700;
+	text-align:center;
+	margin:2% 20%;
+	padding:1% 1%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	}
+
+	
+.columns /* enthält einen Themenbereich ("theme") auf der Startseite - 955px */
+{
+	float:left;
+	width:20%;
+	background:#FFFFFF;
+	margin-right:1%;
+	margin-left:1%;
+	margin-bottom:1%;
+	padding:1%;
+	position:relative; 	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border-radius:15px;
+	}
+	
+.contact_columns /* - 955px */ 
+{
+	float:left;
+	width:98%;
+	background-color: #FFFFFF;
+	font-weight:700;
+	margin-bottom:1%;
+	padding:1%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	}
+
+.contact_form /* - 715px */
+{
+	float:left;
+	width:98%;
+	background-color: #FFFFFF;
+	font-weight:700;
+	margin-bottom:1%;
+	padding:1%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	}
+
+.columns_events_search /* - 715px */ 
+{
+	float:left;
+	width:98%;		
+	margin-right:1%;
+	margin-left:1%;
+	margin-bottom:1%;
+	padding:1%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	}
+
+.columns3 /* - 635px - 715px */ 
+{
+	float:left;
+	width:98%;
+	background-color: #FFFFFF;
+	font-weight:700;
+	margin-bottom:1%;
+	padding:1%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	}
+
+
+.theme /* section-class - enthält die Icons auf der Startseite - 955px */
+{
+	float:left;
+	background: #FFFFFF
+	padding:1%;
+	margin:1%;
+	width:20%;
+	display:block;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border-radius:10px;
+	}
+
+.theme_wind /* enthält den Themenbereich Sturmwarnung auf der Startseite - wird mangels RWD abgeschaltet < 635px */
+{
+	float:left;
+	background: #FFFFFF;
+	padding:1%;
+	margin:1%;
+	width:20%;
+	display:block;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border-radius:10px;
+	}
+
+.theme_wasser /* enthält den Themenbereich Wasserpegel auf der Startseite - wird mangels RWD abgeschaltet < 1225px */
+{
+	float:left;
+	background: #FFFFFF;
+	padding:1%;
+	margin:1%;
+	width:18%;
+	display:block;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border-radius:10px;
+	}
+
+.tour_profil /* enthält die Profilanzeige bei den Wanderwegen - wird mangels RWD abgeschaltet < 715px */
+{
+	display:block;
+	}
+
+.searchdetails_gallery /* enthält 4 Bilder auf der Detailseite */
+{
+	float:left;
+	width:98%;
+	margin:1% 1%;
+	}
+
+.searchdetails_mobility /* enthält Mobilitäts-Links auf der Detailseite */
+{
+	width:96%;
+	float:left;
+	margin: 2% 2%;
+	padding:0 0;
+	height:auto;
+	}
+
+.objectLinks /* enthält die weiterführenden Links auf der Detailseite */
+{
+	float:left;
+	width:96%;
+	margin:2% 2%;
+	}
+
+.ThreeColumnTable /* Formatierung beim Fahrplan */
+{
+	text-align:left;
+	width:98%;
+	float:left;
+	padding:1%;
+	font-size: 0.7em;
+	color: #000000;
+    font-family: Verdana,Arial,sans-serif;
+	border:1px solid #000000;	
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	}
+
+
+footer /* Fusszeile */
+{
+	float:left;
+	background:#FFFFFF;
+	width:100%; 
+	text-align:center;
+	font-size: 0.9em;
+	color: #000000;
+	padding: 1% 1%;
+	-webkit-box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+	box-sizing:border-box;
+}
+
+/* ++++++++++++++++ FORMATIERUNGEN BEIM RATING ++++++++++++++++++ */
+
+#div0 
+{
+	float:left;	
+	width:100%;
+ 	padding:0% 4% 0% 4%;
+	margin:.5% 0 .5% 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	}
+
+#div0 section 
+{
+	float:left;
+	width:100%;
+	background-color: #FFFFFF;
+	margin-bottom:1%;
+	padding:1%;
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	}
+
+#div0 section p 
+{
+	text-align:left;
+	margin-top:0.4em;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:.4em;
+	}
+
+#content 
+{
+	float:left;	
+	width:100%;
+ 	padding:0% 4% 0% 4%;
+	margin:.5% 0 .5% 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	}
+
+table { border-collapse:collapse; text-align: left; }
+
+.tab_datei 
+{ 
+	width:99%; 
+	background-color: #FFFFFF;
+	border-collapse:collapse; 
+	}
+
+.tab_datei input { width:97%; } 
+
+#bewertung   { width:192px; }
+#aliasname   { width:188px; }
+#schlagzeile { width:97%; }
+#kommentar   { width:97%; }
+
+#tab_rubriken 
+{
+	margin-top:2px;
+	margin-left:7px;
+	margin-bottom:0px;
+	border-color:#000000;
+	}
+
+#td_rubriken 
+{
+	width:43px;
+	padding-top:2px;
+	padding-right:9px;
+	}
+
+.edit_menu 
+{
+	background-color: #FFFFFF;
+ 	width:91%;
+  	height:15px;
+  	cursor:pointer;
+  	padding:3px;
+ 	padding-left:8px;
+	margin:2px;
+	margin-bottom:4px;
+	}
+
+.tab_div p, input, select	{ font-family: Verdana,Arial,sans-serif; color: #000000; }
+
+.tab_reiter tr, td	{ font-family: Verdana,Arial,sans-serif; color: #000000; }
+
+.tab_reiter 
+{ 
+	border: 0; 
+	background-color: #FFFFFF;
+	width:560px; 
+	height:auto; 
+	}
+
+.tab_zelle	
+{ 
+	border: 0;
+	width: 70px;
+	height: 25px;
+	cursor:pointer;
+	text-align: center; 
+	background-color: #FFFFFF;
+  	padding:0px;
+	}
+
+#TabLink1 { font-weight: bold; }
+#zelle1	{ background-color: #FFFFFF; }
+#zelle2	{ border-left: 2px solid white }
+#zelle3	{ border-left: 2px solid white }
+#zelle4	{ border-left: 2px solid white }
+#zelle5	{ border-left: 2px solid white }
+#zelle_leer { border: 0; width: auto; /*width: 210px;*/ }
+
+.tab_content_td 
+{ 
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	border-top: 0; 
+	width: 560px; 
+	height: auto; 
+	padding:5px;
+	}
+
+.bild_div { border:thin solid #000000; margin:5px; visibility:hidden; display:none; text-align:center; width: 97%; }
+#bild1_div { visibility:visible; display:block; }
+
+/*============================= DEFINITION FÜR GOOGLE MAP===========================*/
+
+#map-canvas, #map_canvas {
+  height: 100%;
+}
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 65%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+}
+
+
+/* ++++++++++++++++ LAYOUTWECHSEL ++++++++++++++++++ */
+
+.vacancy_year /* enthält den großen Belegungsplan für zwei Jahre > 715px, dann vacancy_month */
+{
+	display:block;
+	}
+
+.spaltenwechsel_permanent {
+	float:left;
+	width:96%;
+	margin:5px 2%;
+	margin-bottom: 10px;
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+	-moz-column-width: 200px;
+	-webkit-column-width: 200px;
+	column-width: 200px;
+	text-align: left;
+	column-gap:3%;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	}
+
+.spaltenwechsel 
+{
+	display:block;
+	background-color: #FFFFFF;
+	color:#000000;
+	font-size: 1.0em;
+	text-align: left;
+	float:left;
+	width:98%;
+	margin:2% 2%;
+	padding:1% 1%;
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+	-moz-column-width: 200px;
+	-webkit-column-width: 200px;
+	column-width: 200px;
+
+	column-gap:3%;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	
+ 	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	border-radius:30px;
+	}
+
+.css3de-spaltenwechsel 
+{
+	display:block;
+	float:left;
+	width:96%;
+	margin:5px 2%;
+	margin-bottom: 10px;
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+	-moz-column-width: 200px;
+	-webkit-column-width: 200px;
+	column-width: 200px;
+	text-align: left;
+	column-gap:3%;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	}
+
+
+/* #### Schriften / Fonts / Darstellungen ####*/
+
+
+/* ++++++++++++++++ HINTERGRÜNDE ++++++++++++++++++ */
+
+body 
+{
+	font-size:0.8em;	
+	font-family:Verdana, Arial, sans-serif;
+	overflow-x:hidden;
+	position:absolute;
+	width:100%;
+	color:#000000;
+	background:#FFFFFF;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+
+/* ++++++++++++++++ SCHRIFTEN, ZEICHEN ++++++++++++++++++ */
+
+.header_text_place 
+{
+	float:left;
+	}
+
+.header_icons_place 
+{
+	display:none;
+/*	width:110px;
+	float:right; */
+	}
+
+h1 
+{
+	font-size: 1.2em;
+	color: #000000;
+	margin: 0 1.5%;
+	}
+
+h2 
+{
+	font-size: 1em;
+	color:#000000;
+	text-decoration:bold;
+	text-align:center;
+	margin-bottom:0.8em;
+	}
+
+h3 
+{
+	font-size: 0.8em;
+	color:#000000;
+	text-decoration:bold;
+	text-align:center;
+	margin-bottom:0.8em;
+	margin-left:1.75%;	
+	margin-right:1.75%;
+	}
+
+h4 
+{
+	font-size: 0.8em;
+	color:#000000;
+	margin-bottom:0.6em;
+	}
+
+h5 
+{
+	font-size: 1em;
+	color:#000000;
+	text-decoration:bold;
+	text-align:center;
+	margin-top:0.5em;
+	margin-bottom:0.8em;
+	}
+
+.note 
+{
+	text-align:center;
+	font-size:.9em;
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:.4em;
+	}
+
+.note_left 
+{
+	text-align:left;
+	font-size:.9em;
+	margin-top:.6em;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:.6em;
+	}
+
+.center { text-align: center; }
+
+.center_vspace_small 
+{
+	text-align:center;
+	margin-top:0.4em;
+	margin-left:0.2em;
+	margin-right:0.2em;
+	margin-bottom:0.4em;
+	}
+
+.center_vspace_large 
+{
+	height:20px;
+	text-align:center;
+	margin-top:15px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:15px;
+	}
+
+.left_vspace_small 
+{
+	text-align:left;
+	margin-top:0.4em;
+	margin-left:0.2em;
+	margin-right:0.2em;
+	margin-bottom:0.4em;
+	}
+
+.left_vspace_small_ir 
+{
+	text-align:left;
+	vertical-align: middle;
+	margin-left:0.2em;
+	margin-right:0.2em;
+	}
+
+.icon_text 
+{
+	text-align:center;
+	color:#000000;
+	text-decoration:bold;
+	font-size:0.7em;
+	margin:2px 2px;
+	}
+
+.creditcard /* Anordnung der Kreditkarten auf der Detailseite */
+{
+	float:left;
+	width: 98%;
+	margin:5px 0;
+	}
+
+.service  /* u.a. beim "Back to top"-Link */ 
+{
+	float:right;
+	}
+
+/* +++ FORMATIERUNGEN BEIM FAHRPLAN +++ */
+
+.TabLeft, .TabRight, .TabMiddle 
+{
+	display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+	}
+
+.TabLeft 
+{
+	width:22%;
+	text-align:center;
+	}
+
+.TabMiddle 
+{
+	width:20%;
+	text-align:center;
+	}
+	
+.TabRight
+{
+	width:58%;
+	text-align:left;
+	}
+	
+.TableRow 
+{
+	float:left;
+	display:block;
+	width:100%;
+	margin-bottom:1%;
+	}
+
+
+/* ++++++++++++++++ LINK-DARSTELLUNGEN ++++++++++++++++++ */
+
+a:link { font-weight:normal; color:#000000; text-decoration:underline; }
+a:visited { font-weight:normal; color:#000000; text-decoration:underline; }
+a:focus { font-weight:normal; color:#000000; text-decoration:underline; }
+a:hover { font-weight:normal; color:#000000; text-decoration:underline; }
+a:active { font-weight:normal; color:#000000; text-decoration:underline; }
+
+header a:link { font-weight:normal; color:#000000; text-decoration:underline; }
+header a:visited { font-weight:normal; color:#000000; text-decoration:underline; }
+header a:focus { font-weight:normal; color:#000000; text-decoration:underline; }
+header a:hover { font-weight:normal; color:#000000; text-decoration:underline; }
+header a:active { font-weight:normal; color:#000000; text-decoration:underline; }
+
+footer a:link { font-weight:normal; color:#000000; text-decoration:underline; }
+footer a:visited { font-weight:normal; color:#000000; text-decoration:underline; }
+footer a:focus { font-weight:normal; color:#000000; text-decoration:underline; }
+footer a:hover { font-weight:normal; color:000000; text-decoration:underline; }
+footer a:active { font-weight:normal; color:#000000; text-decoration:underline; }
+
+.searchdetails_mobility p 
+{
+	width:100%;
+	float:left;
+	margin: 5px 0;
+	}
+
+.tab_div a 
+{ 
+	font-family: Verdana,Arial,sans-serif; 
+	font-weight: normal; 
+	}
+
+.tab_div a:active 
+{ 
+	font-weight: bold; 
+	}
+
+/* Rating */
+#backLink { margin:0px; color:#000000; margin-bottom:5px; text-align:right; width:95%; }
+#backLink a { text-decoration:none; }            
+#info { color:#000000; margin-top:2px; margin-bottom:4px; padding-left:5px; }
+#btnSenden { margin:2px; width:85px; height:27px; }
+
+
+/* ++++++++++++++ Buttons mit Links ++++++++++++++ */
+
+.searchresult_ObjectLink 
+{
+	background:#FFFFFF;
+	padding:0;
+	margin:1.5% 1%;
+	float:left;
+	text-align:center;
+	vertical-align:middle;
+	text-decoration:none;
+	width:25%;
+	height:auto;
+	display:block;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border-radius:15px;
+	}
+
+.searchresult_ObjectLink a 
+{
+	padding:1%;
+	text-align:center;
+	color:#000000;
+	text-decoration:none;
+	width:100%;
+	display:block;
+	}
+
+.busline 
+{
+	background: #FFFFFF;
+	padding:0;
+	margin:1.5% 1%;
+	float:left;
+	text-align:center;
+	vertical-align:middle;
+	text-decoration:none;
+	width:98%;
+	height:auto;
+	display:block;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border-radius:15px;
+	}
+
+.busline a 
+{
+	padding:5px;
+	margin:0 5px;
+	text-align:center;
+	color:#000000;
+	text-decoration:none;
+	width:96%;
+	display:block;
+	}
+
+
+/* #### Images #### */
+
+/* ++++++++++++++++ Grafiken ++++++++++++++++++ */
+img 
+{
+	margin:0 3px;
+	}
+
+.imgout 
+{
+	width:40%;
+	float:left;
+	height:auto;
+	margin:0 10px 5px 0;
+	}
+
+.imgnull 
+{
+	heigth:2px;
+	float:left;
+	width:auto;
+	}
+
+.imgTop 
+{
+	float:right;
+	width:45%;
+	height:auto;
+	max-height: 50px;
+    max-width: 50px;
+	vertical-align:middle;
+	display:inline;
+	margin-right:2%;
+	}
+
+.imgTopEvents 
+{
+	float:right;
+	width:10%;
+	height:auto;
+	max-height: auto;
+    max-width: 22px;
+	display:inline;
+	margin:0 2% 2% 0;
+	}
+
+.imgHeader 
+{
+	width:15%;
+	height:auto;
+	max-height: 50px;
+    max-width: 50px;
+	vertical-align:middle;
+	display:inline;
+	margin-right:2%;
+	}
+	
+.imgTable 
+{
+	width:50%;
+	height:auto;
+	max-height: 40px;
+    max-width: 40px;
+    vertical-align: middle;
+	}
+
+.languages
+{
+	display:none;
+	}
+	
+.tomec 
+{
+	width:70px;
+	float:right;
+	margin: 0 0.2%;
+	height:auto;
+	}
+
+.map_list 
+{
+	display:none;
+/*	width:auto;
+	float:right;
+	margin:0 2px 2px 0;
+	height:30px; */
+	}
+
+.pdf 
+{
+	width:auto;
+	float:left;
+	vertical-align: middle;
+	margin:0 3px 0 0;
+	height:25px;
+	}
+
+.erv /* Reiseversicherung großes Bild, display > 555px */
+{
+	display:block;
+	}
+
+.erv_small /* Reiseversicherung kleines Bild display < 55px */
+{
+	display:none;
+	}
+
+.skew 
+{
+	position:relative;
+	top:5px;
+	left:5px;
+	width:80%;
+
+	-webkit-transform: skew(8deg, -8deg);
+	-moz-transform: skew(8deg, -8deg);
+	-ms-transform: skew(8deg, -8deg);
+	-o-transform: skew(8deg, -8deg);
+	transform: skew(8deg, -8deg);
+
+	z-index:2;
+	}
+
+.skew_shadow 
+{
+	position:absolute;
+	opacity: 0.4;
+	filter: alpha(opacity=40); /* For IE8 and earlier */
+	top:20px;
+	left:20px;
+	width:75%;
+
+	-webkit-transform: skew(-8deg, 8deg);
+	-moz-transform: skew(-8deg, 8deg);
+	-ms-transform: skew(-8deg, 8deg);
+	-o-transform: skew(-8deg, 8deg);
+	transform: skew(-8deg, 8deg);
+
+	z-index:1;
+	}
+
+.stars 
+{
+	width:10px;
+	margin:0;
+	height:auto;
+	}
+
+.phone 
+{
+	float:none;
+    height: auto;
+    margin: 0 5px 3px 0;
+	padding:0;
+    vertical-align: middle;
+    width: 25px;
+	}
+
+.pictogram 
+{
+	heigth:30px;
+	width:auto;
+	}
+
+.objecttype 
+{
+	width:40px;
+	float:left;
+	margin: 5px 10px;
+	height:auto;
+	}
+
+.icon 
+{
+	text-align:center;
+	margin:3px 0 0 0;
+	height:30px;
+	width:auto;
+	}
+
+.rating 
+{
+	display:block;
+	float:right;;
+	}
+
+.gallery 
+{
+	width:48%;
+	float:left;
+	margin: 1% 1%;
+	height:auto;
+	}
+
+/* ++++++++ FORMATIERUNG BEIM RATING **** */
+
+.bild_img 
+{
+	border: 1px solid #000000; 
+	width:480px;
+	height:auto;
+	margin-left:0px;
+	margin-top:3px;
+	margin-bottom:0px;
+  	position:relative; top:2px; left:-12px;
+	}
+
+.bild_delete_icon 
+{ 
+	visibility:visible;
+	height:auto; 
+	margin-left:0px; 
+	margin-right:0px; 
+	margin-bottom:0px; 
+	cursor:pointer; 
+	position:relative; top:0px; left:492px;
+	}
+
+.img_div { margin-top:2px; margin-left:0px; margin-bottom:0px; text-align:center; }
+.bild_label { font-weight: bold; color: #000000; text-align:center; vertical-align:bottom; height:18px; margin:0px; }
+.bild_neues { margin-top:5px; margin-bottom:2px; text-align:left; padding-left:43px; }
+.bild_infos { margin-top:0px; margin-bottom:5px; text-align:left; padding-left:45px; border:0; }
+.bild_titel { width:69px; float:left; padding-top:3px; }
+.bild1_copyright { width:69px; float:left; padding-top:3px; }
+
+.bild_div_hr 
+{
+  	border-bottom: 1px solid #000000; 
+  	border-collapse: collapse;
+  	width: 90%;
+  	height: 0px;
+  	margin-left:22px;
+  	margin-top:8px;
+  	margin-bottom:8px;
+	}
+
+}

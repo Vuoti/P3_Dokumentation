@@ -1,0 +1,673 @@
+input.datepicker{
+background-color: #fff;
+width: 70px;
+}
+
+#calDocDiv select{
+border: 1px #999 solid;
+}
+
+
+#genCalPopupBody{
+background:#fff;
+}
+
+#genCalPopupHeadline{
+display:none;
+}
+
+#genCalPopupMonthSelCell{
+padding:4px;
+height:20px;
+padding-left:30px;
+}
+
+#genCalPopupMonthSelCellHeader{
+padding:4px;
+height:20px;
+color:#ffffff;
+text-align: left;
+}
+
+#genCalPopupMonthPrev{
+display:block; 
+background:url(../typo3conf/ext/ic_unterkuenfte/res/prev.png) no-repeat center; 
+width:19px; 
+height:19px; 
+float:left; 
+cursor: pointer;
+}
+
+#genCalPopupMonthNext {
+display:block; 
+background:url(../typo3conf/ext/ic_unterkuenfte/res/next.png) no-repeat center; 
+width:19px; 
+height:19px; 
+float:left; 
+cursor: pointer;
+}
+
+#genCalCloseCal{
+background-image: url(../typo3conf/ext/ic_unterkuenfte/res/close.png); 
+width: 20px; 
+height: 20px; 
+float: right; 
+cursor: pointer; 
+position: absolute;
+right: 15px;
+top: -10px;
+}
+
+.genCalPopupSel {
+font-family:Verdana, Arial, Helvetica, sans-serif; 
+font-size:11px; 
+float:left;
+}
+
+#genCalPopup {
+border:0px solid #333; 
+padding:5px 5px 5px 5px;
+}
+
+#genCalPopupCalendar, #genCalPopupCalendar2 {
+padding:0 25px;
+font-size: 0.8125em;
+}
+
+#genCalPopupDayNames{
+float: left; 
+margin-left:1px; 
+margin-top:15px; 
+margin-bottom: -6px;
+}
+
+.genCalPopupDayName {
+height: 20px; 
+float:left; 
+font-weight:bold; 
+width:20px; 
+text-align:center; 
+padding:3px 3px 3px 3px; 
+margin: 0;
+}
+
+.genCalPopupWeek{
+clear:both; height:16px;
+}
+
+*+html .genCalPopupWeek {
+height:20px;
+}
+
+.genCalPopupDay, .genCalPopupVacationDay{
+background:#fff;
+float:left; 
+width:20px; 
+height:20px;
+line-height: 20px; 
+text-align:center; 
+padding:2px;
+margin: 1px;
+}
+
+.genCalPopupVacationDay {
+background:#BDD3E9;
+}
+
+.genCalPopupVacationDay a{
+color: #fff;
+}
+
+#genCalPopupDayToday{
+border:1px dashed #999;
+}
+
+#genCalPopupDayTodayChosen, #genCalPopupDayTodayChosen2 {
+background:#00166C;
+}
+
+#genCalPopupDayTodayChosen a, #genCalPopupDayTodayChosen2 a{
+color: #fff;
+}
+
+#genCalPopupDayChosen, #genCalPopupDayChosen2{
+background:#2369b0; 
+color:#fff;
+}
+
+#genCalPopupDayChosen a, #genCalPopupDayChosen2 a{
+color:#fff;
+}
+
+#genCalPopupInstruction {
+display:none;
+}
+
+#genCalPopupVacationLabel {
+float:left; 
+padding-right:5px;
+font-size: 0.8125em;
+}
+
+#genCalPopupVacationCell{
+/*float: left;
+text-align: left; 
+padding:5px;
+*/
+position: absolute;
+left: 15px !important;
+bottom: 20px !important;
+margin: 0 !important;
+}
+
+#genCalPopupWindowCloseCell {
+display:none;
+}
+
+#dateButton{
+display: block;
+border: 0;
+width: 143px;
+height: 22px;
+background: url(../typo3conf/ext/ic_unterkuenfte/res/calbutton.gif) no-repeat center; 
+float: right;
+text-align: center;
+line-height: 26px;
+padding: 0;
+margin: -5px 0 0 10px;
+color: #fff;
+cursor: pointer;
+z-index: 991;
+}
+
+
+.calDocShadow{
+width: 525px; 
+height: 300px;
+}
+
+/*
+.calDocShadow{
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../typo3conf/ext/ic_unterkuenfte/res/box-bg.png');
+}
+*/
+.calDocShadow{
+background: url(../typo3conf/ext/ic_unterkuenfte/res/box-bg.png);
+}
+/*Schnellsuche*/
+#quicksearch { 
+position: absolute;
+left: 10px;
+height: 217px;
+overflow:hidden;
+}
+
+#quicksearch #quickheader {
+    position: absolute;
+}
+
+h1.quicksearch, h1.quickplaces {
+cursor: pointer;
+width: 170px;
+background: #255075;
+color: #fff;
+height: 28px;
+text-align: center;
+padding: 12px 0px;
+font-weight: bold;
+font-size: 14px;
+float: left;
+text-transform: uppercase;
+}
+h1.quickplaces {
+background: #d7e4f1;
+}
+
+h1.quickplaces a {
+    color: #255075;
+}
+
+#quicksearchcontent {
+position: relative;
+background: #255075;
+width: 340px;
+height: 170px;
+padding: 5px 0;
+top: 37px;
+}
+
+#togglequicksearch {
+position: absolute;
+right: 2px;
+top: 2px;
+width: 9px;
+height: 9px;
+}
+
+#subfields {
+width: 340px;
+float:left;
+height: 30px;
+padding-top: 10px;
+display:block;
+}
+
+#subfields label {
+float:left !important;
+display:inline !important;
+overflow:hidden;
+clear:none !important;
+padding-left: 10px !important;
+}
+
+#subfields select {
+float:left !important;
+display:inline !important;
+overflow:hidden; 
+}
+
+#quicksearchcontent #subfields .killfloat {
+clear: none !important;
+}
+
+#quicksearch .gruppe {
+position: absolute;
+float:left;
+left:0;
+padding-top:10px;
+position:absolute;
+top:95px;
+width:340px;
+}
+
+
+#quicksearch .gruppe select {
+float:left;
+}
+
+#quicksearch .gruppe .killfloat {
+clear:none !important;
+float: left !important;
+}
+
+
+#quicksearch #gruppe4 {
+position: absolute;
+top: 95px;
+left: 0;
+display:block;
+float:left;
+height:30px;
+padding-top:10px;
+width:340px;
+}
+
+#quicksearch #gruppe4 select{
+float:left;
+display:inline;
+}
+
+#dateform label {
+padding-left: 10px !important;
+}
+
+#detailsearchlink {
+position: absolute;
+left: 10px;
+bottom: 20px;
+}
+
+#detailsearchlink input{
+color: #EFAC30;
+background: url(../typo3conf/ext/ic_unterkuenfte/res/detailsearchlink.gif) no-repeat 0 50%;
+font-size: 0.8125em;
+height: 20px;
+padding-left: 10px;
+border: none;
+cursor: pointer;
+}
+
+#quicksearch h3{
+color: #fff;
+}
+
+.startkalender {
+float:left;
+display:inline;
+margin-top: -2px;
+margin-bottom: 2px;
+cursor:pointer;
+}
+
+#quicksearch #anreise, #extendedsearch #anreise{
+float:left;
+display:inline;
+}
+
+
+#quicksearch #abreise, #extendedsearch #abreise {
+float:left; display:inline;
+}
+
+#quicksearch .left {
+float:left; 
+display:inline;
+width: 180px;
+overflow:hidden;
+padding-top: 10px;
+}
+
+#quicksearch .left.unterkunftsart {
+width: 160px;
+}
+
+#quicksearch label, #extendedsearch label {
+float:left;
+display:inline;
+color: #fff;
+font-size: 0.8125em;
+height: 20px;
+line-height: 20px;
+margin:0;
+padding:0;
+clear:left;
+padding-right: 5px;
+}
+
+#quicksearch label {
+height: auto !important;
+}
+
+#quicksearch .left.wuensche {
+width: 240px;
+}
+
+#quicksearchbtn {
+cursor: pointer;
+position: absolute;
+bottom: 0;
+left: 0;
+border: 0;
+background: url(../typo3conf/ext/ic_unterkuenfte/res/quicksearchbutton.gif) no-repeat;
+width: 83px; 
+height: 21px;
+line-height: 20px;
+color: #ffffff;
+font-size: 0.8125em;
+padding: 0 0 3px 5px;
+}
+
+#quicksearchbtn:hover{
+color: #ffffff !important;
+}
+
+#extendedsearch h3 {
+color: #000;
+font-weight: bold;
+padding-bottom: 7px;
+}
+
+#extendedsearch .row{
+margin-bottom: 5px;
+float:left;
+}
+
+#extendedsearch .pricefield{
+width: 50px;
+}
+
+#extendedsearch .left .unterkunftsart{
+width: 220px;
+}
+
+#gruppe1, #gruppe2 {
+height: auto;
+display:block;
+}
+
+#gruppe1 label {
+float:left !important;
+width: 79px; 
+padding-left: 21px;
+display:inline !important;
+}
+
+#quicksearch #gruppe1 select , #extendedsearch #gruppe1 select {
+width: 93px;
+}
+
+#quicksearch #gruppe2, #extendedsearch #gruppe2 {
+padding-left: 21px;
+}
+
+#extendedsearch .radio {
+float:left;
+}
+
+
+.left.wuensche .radio, .left.unterkunftsart .radio, .left.unterkunftsart .checkbox {
+float:left;
+display:block;
+}
+
+.left.unterkunftsart label {
+display:block !important;
+clear:none !important;
+}
+
+.left.unterkunftsart label.radiolabel {
+float:none !important;
+}
+
+#searchfield {
+position: absolute;
+width: 83px; 
+height: 21px;
+right:10px;
+bottom: 30px;
+}
+
+/* Quicksearch update */
+
+#quicksearchcontent.quicksearchcontent__update {
+    width: 170px;
+}
+
+.quicksearchcontent__update .field {
+    height: 15px;
+    padding: 10px 0;
+}
+
+.quicksearchcontent__update #adults {
+    margin-left: 14px;
+}
+
+.quicksearchcontent__update #searchfield {
+    left: 50px;
+    right: auto;
+}
+.quicksearchcontent__update .quicksearch__detailssearch {
+    bottom:5px;
+    color:white;
+    font-size:0.8125em;
+    left:59px;
+    line-height:20px;
+    position:absolute;
+}
+
+#extendedsearch {
+position: relative;
+margin: 0 auto 15px auto;
+background: #fff;
+padding: 15px;
+float:left;
+width: 950px;
+height: 620px !important;
+display:block;
+}
+
+#extendedsearch h1{
+color: #000;
+font-size: 1.75em;
+padding-left: 0;
+}
+
+#extendedsearch .subtitle{
+padding-top: 40px;
+color: #255176;
+font-size: 0.8125em;
+margin-bottom: 15px;
+float:left;
+width: 400px;
+}
+
+
+#extendedsearch #dateform {
+/*
+float:left;
+position: relative;
+display:block;*/
+}
+
+#extendedsearch #quicksearchbtn {
+right: 48px;
+bottom: 40px;
+top: auto;
+left: auto;
+}
+
+#extendedsearch .point {
+float:left;
+display:inline;
+width: 280px;
+padding: 20px 60px;
+margin-top: 5px;
+}
+
+#extendedsearch label {
+color: #424242;
+margin-bottom: 5px;
+clear: none;
+}
+
+#extendedsearch label.small {
+float:left !important;
+display:inline !important;
+width: 100px;
+height: auto !important;
+}
+
+#extendedsearch label.onlinelabel {
+float:left;
+height: auto !important;
+display:block;
+margin-bottom: 0 !important;
+/*clear:both !important;*/
+}
+
+#extendedsearch input.onlinecheck {
+display:inline;
+float:left;
+}
+
+#extendedsearch #ukproperties label, #extendedsearch #ukproperties input {
+float:left;
+display:inline;
+}
+
+
+#extendedsearch .point.nr1 {
+background: url(../typo3conf/ext/ic_unterkuenfte/res/punkt1.png) left top no-repeat;
+height:200px;
+}
+
+#extendedsearch .point.nr2 {
+background: url(../typo3conf/ext/ic_unterkuenfte/res/punkt2.png) left top no-repeat;
+}
+
+#extendedsearch .point.nr3 {
+background: url(../typo3conf/ext/ic_unterkuenfte/res/punkt3.png) left top no-repeat;
+}
+
+#extendedsearch .point.nr4 {
+background: url(../typo3conf/ext/ic_unterkuenfte/res/punkt4.png) left top no-repeat;
+}
+
+#extendedsearch .point.nr5 {
+background: url(../typo3conf/ext/ic_unterkuenfte/res/punkt5.png) left top no-repeat;
+}
+
+#extendedsearch .detailfield{
+margin-bottom: 5px;
+}
+
+#quicksearch #quicksearchcontent .unterkunftsart .radio,
+#quicksearch #quicksearchcontent .unterkunftsart .onlinelabel,
+#quicksearch #quicksearchcontent .unterkunftsart .onlinecheck,
+#quicksearch #quicksearchcontent .unterkunftsart .radiolabel {
+    display: none !important;
+}
+
+#quicksearch #quicksearchcontent .headline {
+    color: #fff;
+    padding-left: 10px !important;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/* Styling Quicksearch mit Feldern rechts */
+
+#quicksearch form > div.left:first-child {
+    margin-bottom: 20px;
+}
+
+#quicksearch .right {
+    float: right;
+    width: 150px;
+    margin-top: -75px;
+}
+
+#quicksearch .right label {
+    float: inherit;
+}
+
+#quicksearch .right .field input {
+    float: left;
+}
+
+#quicksearch .right .field {
+    margin-bottom: 2px;
+}
+
+#quicksearch .left .field select.big {
+    width: 100px;
+}
+
+#quicksearch .right .field:nth-child(3) input {
+    margin-bottom: 20px;
+    margin-right: 13px;
+}
+
+#quicksearch .right .field:nth-child(3) label {
+    padding-left: 0!important;
+}
+
+#quicksearch .right .field:nth-child(4) label {
+    float: left;
+}
+
+#quicksearch .right .field:nth-child(4) input {
+    float: inherit;
+}
+
+#quicksearch .right .field input[type="checkbox"] {
+    -webkit-appearance: radio; /* Chrome, Safari, Opera */
+    -moz-appearance: radio;    /* Firefox */
+    -ms-appearance: radio;     /* not currently supported */
+}
+
+#quicksearch .right .field:nth-child(4) input[type="checkbox"] {
+    -webkit-appearance: checkbox; /* Chrome, Safari, Opera */
+    -moz-appearance: checkbox;    /* Firefox */
+    -ms-appearance: checkbox;     /* not currently supported */
+}

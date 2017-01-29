@@ -1,0 +1,53 @@
+/* longjohn.org */
+
+
+/* body { background-color:#DCDCDC;background-image:url(../images/hs_bkgr_grau.gif) }  Festlegung der Hintergrundfarbe */
+
+body {margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px;background-color:#808080;text-align:center }
+
+a:link { color:#800000;text-decoration:underline;font-weight:light}
+a:visited { color:#800000;text-decoration:underline;font-weight:light}
+a:active { color:#c00000;background-color:#f9f8b1;text-decoration:underline;font-weight:light}
+a:hover { color:#c00000;background-color:#f9f8b1;text-decoration:underline;font-weight:light}
+
+.menue { font-family:Arial,Helvetica,sans-serif;font-size:8pt;color:#FFFFFF;font-weight:bold;}   /* Menüschrift*/
+
+.normal { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;font-size:10pt;color:#202020; } /* Standardschrift für Fließtexte */
+.normalweiss { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;font-size:10pt;color:#FFFFFF; } /* Standardschrift für Fließtexte, aber weiß für farbige Hintergründe */
+.normalfarbig { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;font-size:10pt;color:#b36b00; } /* Standardschrift für Fließtexte, aber rotbraun als Hervorhebung*/
+.gross { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;font-size:12pt;color:#202020;font-weight:bold; }  /* Überschriften für Textabschnitte */
+.klein { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;font-size:8pt;color:#202020 }   /* kleine Standardschrift */
+.hinweis { font-family:Arial,Helvetica,sans-serif;font-size:8pt;color:#BF4000 }   /* kleine Standardschrift, orange */
+.kleinf { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;font-size:8pt;font-style:italic;color:#808080 }   /* kleine Standardschrift */
+
+h1 { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;font-size:15pt;font-weight:bold;color:#202020 } /* Festlegung der Seiten-Überschriften */
+h2 { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;font-size:13pt;font-weight:bold;color:#202020 } /* Absatzüberschrift*/
+h3 { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;font-size:11pt;font-weight:bold;color:#202020 } /* Unterzeilen für Seiten-Überschriften, Zwischenüberschriften*/
+
+ul { color:#202020;border:0px;margin:0px;margin-left:20px;font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;font-size:10pt;color:#202020;  } /* Festlegung der Farbe für die Listen-Bullets, Liste mit Standardschrift */
+
+.tab_kopf { width:760px;border-color:#000000;border-style:solid;border-width:0px;border-spacing:0px;border-collapse:collapse;margin:auto;padding:0px;background-color:#fdfdd7 } /*margin:auto ist für FF zur Zentrierung, spielt zusammen mit text-align im body*/
+.td_kopf { border-style:solid;border-width:0px;border-color:#c00000;vertical-align:top;margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px;padding:0px;background-color:#fdfdd7 }
+.td_kopf2 { border-style:solid;border-width:0px;border-color:#c00000;vertical-align:top;margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px;padding:0px 30px;background-color:#fdfdd7 }
+
+.tab_inh { width:760px;border-color:#000000;border-style:solid;border-width:0px;border-spacing:0px;border-collapse:collapse;margin:auto;padding:30px;background-color:#efe6a7 } /*margin:auto ist für FF zur Zentrierung, spielt zusammen mit text-align im body*/
+.td_inh { border-style:solid;border-width:0px;border-color:#c00000;vertical-align:top;margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px;padding:0px;background-color:#efe6a7 }
+
+.tab_fuss { width:760px;border-color:#000000;border-style:solid;border-width:0px;border-spacing:0px;border-collapse:collapse;margin:auto;padding:0px;background-color:#efe6a7 } /*margin:auto ist für FF zur Zentrierung, spielt zusammen mit text-align im body*/
+.td_fuss { border-style:solid;border-width:0px;border-color:#c00000;vertical-align:top;margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px;padding:0px 30px;background-color:#efe6a7 } 
+
+.tab_daten { width:700px;border-color:#efe6a7;border-style:solid;border-width:2px;border-spacing:0px;border-collapse:collapse;margin:auto;padding:0px;background-color:#efe6a7 } /*margin:auto ist für FF zur Zentrierung, spielt zusammen mit text-align im body*/
+.tab_daten_vari { border-color:#efe6a7;border-style:solid;border-width:2px;border-spacing:0px;border-collapse:collapse;padding:0px;background-color:#efe6a7 }
+.td_daten { border-style:solid;border-width:2px;border-color:#efe6a7;vertical-align:top;margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px;padding:3px;background-color:#fdfdd7 }
+.td_blind { border-style:solid;border-width:2px;border-color:#efe6a7;vertical-align:top;margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px;padding:3px } 
+
+td { vertical-align:top;font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;font-size:10pt;color:#202020;border-style:solid;border-width:0px;padding:0px }
+td.vbot { vertical-align:bottom; }
+
+hr.hs { width:100%;color:#4D4D4D; }
+
+/* Diverse: Braungelbtöne: #f2e1c3 #efe6a7 #fdfdd7 #f0cc6c #d9c58f #e0c782 #e9e86f #ffffef*/
+
+/* border-color:#000000;border-style:solid;border-width:0px;border-spacing:0px; */
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+</head>
+<body data-pinterest-extension-installed="ff1.37.9">
+<script type="text/javascript">
+
+    function msgListener(msg) {
+        if (msg.origin == reqOrigin){
+            if (msg.data.match('emetriq')) {
+                var x = msg.data.split(':^:');
+                var sas_domain = (location.protocol == "https:") ? "sascdn" : "smartadserver";
+                document.cookie = "emetriq=" + x[1] + "; domain=." + sas_domain + ".com;path=/";
+            }
+        }
+    }
+
+    (window.attachEvent)?window.attachEvent("onmessage", msgListener):window.addEventListener("message", msgListener, false);
+
+    var reqOrigin = location.href.match(/\?ref=(.*)/)[1];
+
+
+    try {
+        sas_uuid = document.cookie.match(/pid=(.*?);/)[1];
+    }catch(e){
+        sas_uuid = '';
+    }
+    parent.postMessage(sas_uuid, '*');
+
+</script>
+
+</body></html>
