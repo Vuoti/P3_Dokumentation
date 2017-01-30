@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="de" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Build-to-Order – Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Build-to-Order","wgTitle":"Build-to-Order","wgCurRevisionId":160324095,"wgRevisionId":160324095,"wgArticleId":2393924,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Distributionslogistik","Produktionslogistik","Produktionswirtschaft"],"wgBreakFrames":false,"wgPageContentLanguage":"de","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t.",".\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"],"wgMonthNamesShort":["","Jan.","Feb.","Mär.","Apr.","Mai","Jun.","Jul.","Aug.","Sep.","Okt.","Nov.","Dez."],"wgRelevantPageName":"Build-to-Order","wgRelevantArticleId":2393924,"wgRequestId":"WIb8@gpAMFsAAJ54wUwAAACA","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"accuracy":{"levels":1,"quality":2,"pristine":4}}},"wgStableRevisionId":160324095,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"de","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"de","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":true},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"Deutsch","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q1003004","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.flaggedRevs.basic":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@045gamm",function($,jQuery,require,module){mw.user.options.set({"variant":"de"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.WikiMiniAtlas","ext.gadget.OpenStreetMap","ext.gadget.CommonsDirekt","ext.centralauth.centralautologin","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.flaggedRevs.advanced","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=de&amp;modules=ext.cite.styles%7Cext.flaggedRevs.basic%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=de&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=de&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.29.0-wmf.8"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/de.m.wikipedia.org/wiki/Build-to-Order"/>
+<link rel="alternate" type="application/x-wiki" title="Seite bearbeiten" href="/w/index.php?title=Build-to-Order&amp;action=edit"/>
+<link rel="edit" title="Seite bearbeiten" href="/w/index.php?title=Build-to-Order&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (de)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//de.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://de.wikipedia.org/wiki/Build-to-Order"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+</head>
+<body class="mediawiki ltr sitedir-ltr capitalize-all-nouns mw-hide-empty-elt ns-0 ns-subject page-Build-to-Order rootpage-Build-to-Order skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice"><!-- CentralNotice --></div>
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="de">Build-to-Order</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">aus Wikipedia, der freien Enzyklopädie</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Wechseln zu:					<a href="#mw-head">Navigation</a>, 					<a href="#p-search">Suche</a>
+				</div>
+				<div id="mw-content-text" lang="de" dir="ltr" class="mw-content-ltr"><script>function mfTempOpenSection(id){var block=document.getElementById("mf-section-"+id);block.className+=" open-block";block.previousSibling.className+=" open-block";}</script><p><b>Build-to-Order</b> (<a href="/wiki/Englische_Sprache" title="Englische Sprache">engl.</a> <i><span lang="en" xml:lang="en">build to order</span></i> für „<b>Fertigung nach Auftrag</b>“, abgekürzt <b>BTO</b>; seltener auch <i><span lang="en" xml:lang="en">built to order</span></i> für „gebaut auf Bestellung“) oder <i><span lang="en" xml:lang="en">Make-to-Order</span></i> (MTO) ist eine strategisch-operative Vorgehensweise von <a href="/wiki/Unternehmen" title="Unternehmen">Unternehmen</a>. Ein Produkt wird dabei erst nach der Bestellung des Kunden hergestellt. Das Gegenstück ist die <a href="/wiki/Lagerfertigung" title="Lagerfertigung">Lagerfertigung</a> (<a href="/wiki/Englische_Sprache" title="Englische Sprache">engl.</a> <i><span lang="en" xml:lang="en">build to stock</span></i> (BTS)).</p>
+<p>In der Praxis trifft man häufig eine Kombination aus Lagerfertigung und Auftragsfertigung. So werden in der Automobilindustrie sowohl Fahrzeuge auf Lager gefertigt, die beim Händler stehen und sofort mitgenommen werden können, als auch Fahrzeuge, die ausschließlich nach Kundenwunsch, d.h. entsprechend der jeweiligen <a href="/wiki/Konfiguration" class="mw-disambig" title="Konfiguration">Konfiguration</a> des Kunden, gefertigt werden. Hier muss der Kunde eine bestimmte <a href="/wiki/Lieferzeit" class="mw-redirect" title="Lieferzeit">Lieferzeit</a> in Kauf nehmen, bevor er „sein“ Fahrzeug übernehmen kann.</p>
+<p>Beispielsweise bieten einige Computerhersteller Grundmodelle (z.&#160;B. <a href="/wiki/Barebone" title="Barebone">Barebones</a>) an, die der <a href="/wiki/Kunde" title="Kunde">Kunde</a> dann im <a href="/wiki/Modularit%C3%A4t" title="Modularität">Baukastenprinzip</a> nach individuellem Wunsch mit unterschiedlichen Prozessoren, Festplatten, Speicherbausteinen, Laufwerken, Grafikkarten u.&#160;a. ausstatten kann. Das <a href="/wiki/Endprodukt" title="Endprodukt">Endprodukt</a> wird also vom Kunden in den Details definiert und erst nach Auftragserteilung in der gewünschten <a href="/wiki/Produktkonfiguration" class="mw-disambig" title="Produktkonfiguration">Konfiguration</a> gefertigt.</p>
+<p>Die <a href="/wiki/Lieferant" title="Lieferant">Lieferanten</a> des jeweiligen Unternehmens behalten dabei die Komponenten und Lieferteile meist so lange, bis diese benötigt werden. Die benötigten Teile werden erst nach konkreter Bestellung eines Kunden beim Lieferanten abgerufen. Der Lieferant führt daher ein Auslieferungs<a href="/wiki/Lagerhaltung" title="Lagerhaltung">lager</a>, um Teile schnell (zum Beispiel innerhalb einer Stunde) der Produktion des Unternehmens zuführen zu können. Dafür müssen Nachfrageprognosen zwischen Unternehmen und Lieferant ausgetauscht und erhoben werden, da der Lieferant in der Pflicht steht, seine Planung und Lagerung zu koordinieren. Bei der <a href="/wiki/Just-in-time-Produktion" title="Just-in-time-Produktion">Just-in-time-Produktion</a> oder der <a href="/wiki/Just-in-Sequence-Produktion" title="Just-in-Sequence-Produktion">Just-in-Sequence-Produktion</a> wird jedoch kein Auslieferungslager beim Lieferanten benötigt, weil dieser ebenfalls erst nach der Kundenbestellung fertigt und die Teile, Baugruppen oder Module termin- bzw. sequenzgerecht beim Hersteller des Endproduktes anliefert.</p>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+<h2>Inhaltsverzeichnis</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Kundenauftrags-Entkopplungspunkt"><span class="tocnumber">1</span> <span class="toctext">Kundenauftrags-Entkopplungspunkt</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Vorteile"><span class="tocnumber">2</span> <span class="toctext">Vorteile</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Nachteile"><span class="tocnumber">3</span> <span class="toctext">Nachteile</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Anwendung_und_Verbreitung"><span class="tocnumber">4</span> <span class="toctext">Anwendung und Verbreitung</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Quellen"><span class="tocnumber">5</span> <span class="toctext">Quellen</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Literatur"><span class="tocnumber">6</span> <span class="toctext">Literatur</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Weblinks"><span class="tocnumber">7</span> <span class="toctext">Weblinks</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Kundenauftrags-Entkopplungspunkt">Kundenauftrags-Entkopplungspunkt</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Build-to-Order&amp;veaction=edit&amp;section=1" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Kundenauftrags-Entkopplungspunkt">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Build-to-Order&amp;action=edit&amp;section=1" title="Abschnitt bearbeiten: Kundenauftrags-Entkopplungspunkt">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Die Herstellung komplexer Erzeugnisse, die sich aus vielen Baugruppen und Unterbaugruppen zusammensetzen, benötigt oftmals lange Fertigungs- und Durchlaufzeiten; dies gilt ebenso für einige Baugruppen und Teile, deren Fertigungs- oder Beschaffungszeit oftmals sehr lange dauert. Würde man alle Fertigungs- und Beschaffungsprozesse erst starten, wenn ein konkreter Kundenauftrag vorliegt, dann würde die gesamte Auftragsdurchlaufzeit sehr lange und in vielen Fällen für den Kunden sogar zu lange dauern. Daher wird ein bestimmter Fertigungsumfang bereits vorgefertigt, ohne dass ein bestimmter Kundenauftrag vorliegt. Dadurch wird die Auftragsdurchlaufzeit stark verkürzt ohne Lagerbestände an Endprodukten aufzubauen. Die Stelle im Prozess bis zu der kundenanonym gefertigt wird nennt man auch <a href="/wiki/Entkopplungspunkt" title="Entkopplungspunkt">Entkopplungspunkt</a>. Insofern wird streng genommen erst ab dem Entkopplungspunkt nach dem BTO-Prinzip gefertigt. Welche Stelle als Entkopplungspunkt geeignet ist, lässt sich nicht allgemein beantworten, sondern muss für jedes Produkt neu bestimmt werden. In der Automobilindustrie wird als Entkopplungspunkt oft eine Stelle im Karosserierohbau gewählt, die auch Taufpunkt genannt wird, weil hier die Zuordnung des Kundenauftrags zu einer konkreten Karosse erfolgt.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup></p>
+<h2><span class="mw-headline" id="Vorteile">Vorteile</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Build-to-Order&amp;veaction=edit&amp;section=2" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Vorteile">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Build-to-Order&amp;action=edit&amp;section=2" title="Abschnitt bearbeiten: Vorteile">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Vorteile von BTO-Produktionen sind neben dem schnellen Finanzfluss aller Beteiligten:</p>
+<ul>
+<li>für Hersteller
+<ul>
+<li>direkter Kundenkontakt und genaue Kenntnis tatsächlich benötigter Produkte</li>
+<li>Verzicht auf Zwischenhändler (Kunde bestellt direkt beim Hersteller), höhere <a href="/wiki/Wertsch%C3%B6pfung_(Wirtschaft)" title="Wertschöpfung (Wirtschaft)">Wertschöpfung</a></li>
+<li>kein bzw. geringer Bedarf an Auffüllbeständen/kurze Verweilzeiten im Lager wodurch die Lagerkosten niedrig gehalten werden</li>
+<li>kein Preisverfall durch <a href="/wiki/Warenrotation" title="Warenrotation">Ladenhüterproduktion</a> wie bei reiner Serienfertigung möglich</li>
+<li>schnelle Reaktion auf geänderte Marktbedingungen</li>
+</ul>
+</li>
+<li>für Kunden
+<ul>
+<li>Ware nach Wunsch statt reiner <a href="/wiki/Massenproduktion" title="Massenproduktion">Massenproduktion</a></li>
+<li>neuere Einbauteile (Einsatz jeweils neuester Technologie)</li>
+<li>direkter Kontakt zum Hersteller (eventuell Onlinesupport)</li>
+</ul>
+</li>
+</ul>
+<h2><span class="mw-headline" id="Nachteile">Nachteile</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Build-to-Order&amp;veaction=edit&amp;section=3" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Nachteile">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Build-to-Order&amp;action=edit&amp;section=3" title="Abschnitt bearbeiten: Nachteile">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>hohe Fixkosten aufgrund von Leerkapazitäten</li>
+<li>schwankende Auslastung der Kapazitäten</li>
+<li>optimale Bestellmenge oder Losgröße kann schwer bestimmt werden</li>
+<li>hohe Beschaffungskosten, da ggf. <a href="/wiki/Skaleneffekt" title="Skaleneffekt">Skaleneffekte</a> nicht genutzt werden können</li>
+<li>lange Lieferzeiten zum Kunden, da das Produkt nicht auf Vorrat gehalten wird</li>
+</ul>
+<h2><span class="mw-headline" id="Anwendung_und_Verbreitung">Anwendung und Verbreitung</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Build-to-Order&amp;veaction=edit&amp;section=4" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Anwendung und Verbreitung">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Build-to-Order&amp;action=edit&amp;section=4" title="Abschnitt bearbeiten: Anwendung und Verbreitung">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In vielen Industriezweigen wie der Automobil-, Elektronik- oder Möbelindustrie, hat sich in den letzten Jahren die Tendenz verstärkt, möglichst viele Produkte nach Kundenauftrag zu fertigen, nicht nur um die Lagerkosten zu senken, sondern auch, um die Gefahr zu reduzieren, auf bereits gefertigten Teilen „sitzen zu bleiben“. Solche Lagerprodukte können dann nur noch durch hohe Preisnachlässe und günstige Finanzierungen verkauft werden, was den Gewinn entsprechend schmälert. Ein Beispiel dafür ist die Finanz- und Automobilkrise 2008/2009 in den USA, wo die amerikanischen Hersteller zunächst weiter produziert haben, obwohl der Verkauf bereits zurückging, und anschließend ihre Fahrzeuge zu niedrigen Preisen verkaufen mussten. Ein weiterer Grund für BTO liegt auch in der zunehmenden Variantenvielfalt und dem Wunsch der Kunden, nach einem individuellen Produkt, wie dies in der Automobilindustrie zu sehen ist.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup> Um die Kosten dennoch im Griff zu behalten wird versucht, die vom Kunden bestellte Produktvariante erst möglichst spät, also am Ende der Produktionskette in der Vor- und End<a href="/wiki/Montage_(Produktion)" title="Montage (Produktion)">montage</a>, aus bereits vorgefertigten <a href="/wiki/Einzelteil" title="Einzelteil">Einzelteilen</a> oder <a href="/wiki/Baugruppe" title="Baugruppe">Baugruppen</a> herzustellen. Hier spielt der <a href="/wiki/Entkopplungspunkt" title="Entkopplungspunkt">Entkopplungspunkt</a> eine wichtige Rolle; dieser gibt an, bis wann kundenanonym und ab wann kundenbezogen produziert wird.</p>
+<h2><span class="mw-headline" id="Quellen">Quellen</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Build-to-Order&amp;veaction=edit&amp;section=5" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Quellen">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Build-to-Order&amp;action=edit&amp;section=5" title="Abschnitt bearbeiten: Quellen">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">Herlyn,W.: <i>PPS im Automobilbau</i>, Hanser Verlag, München 2012, <a href="/wiki/Spezial:ISBN-Suche/9783446413702" class="internal mw-magiclink-isbn">ISBN 978-3-446-41370-2</a>, S. 200.</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text">Herlyn,W.: <i>PPS im Automobilbau</i>, Hanser Verlag, München 2012, <a href="/wiki/Spezial:ISBN-Suche/9783446413702" class="internal mw-magiclink-isbn">ISBN 978-3-446-41370-2</a>, S. 57–64.</span></li>
+</ol>
+<h2><span class="mw-headline" id="Literatur">Literatur</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Build-to-Order&amp;veaction=edit&amp;section=6" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Literatur">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Build-to-Order&amp;action=edit&amp;section=6" title="Abschnitt bearbeiten: Literatur">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>Glenn,P. Graves, A. (Ed.): <i>Build to Order – The Road to a 5-Day Car</i>; Springer Verlag, London, 2008, <a href="/wiki/Spezial:ISBN-Suche/9781848002241" class="internal mw-magiclink-isbn">ISBN 978-1-84800-224-1</a> <a rel="nofollow" class="external autonumber" href="http://www.springer.com/engineering/mechanical+eng/book/978-1-84800-224-1">[1]</a></li>
+<li>Herlyn, W.: <i>PPS im Automobilbau – Produktionsprogrammplanung und -steuerung von Fahrzeugen und Aggregaten</i>, Hanser Verlag, München, 2012, <a href="/wiki/Spezial:ISBN-Suche/9783446413702" class="internal mw-magiclink-isbn">ISBN 978-3-446-41370-2</a>.</li>
+<li>Wiendahl, H.-P., Gerst, D., Keunecke L. (Hrsg.): <i>Variantenbeherrschung in der Montage – Konzept und Praxis der flexiblen Produktionsendstufe.</i> Springer Verlag, Berlin 2004, <a href="/wiki/Spezial:ISBN-Suche/3540140425" class="internal mw-magiclink-isbn">ISBN 3-540-14042-5</a>.</li>
+</ul>
+<h2><span class="mw-headline" id="Weblinks">Weblinks</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Build-to-Order&amp;veaction=edit&amp;section=7" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Weblinks">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Build-to-Order&amp;action=edit&amp;section=7" title="Abschnitt bearbeiten: Weblinks">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://wirtschaftslexikon.gabler.de/Archiv/82851/make-to-order-v5.html">Make to Order</a>, Wirtschaftslexikon Gabler</li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1251
+Cached time: 20170105065956
+Cache expiry: 2592000
+Dynamic content: false
+CPU time usage: 0.028 seconds
+Real time usage: 0.032 seconds
+Preprocessor visited node count: 107/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 294/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/500
+Lua time usage: 0.006/10.000 seconds
+Lua memory usage: 797 KB/50 MB
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   18.169      1 - -total
+ 99.00%   17.987      4 - Vorlage:Lang
+-->
+
+<!-- Saved in parser cache with key dewiki:stable-pcache:idhash:2393924-0!*!0!!de!*!* and timestamp 20170105065956 and revision id 160324095
+ -->
+<noscript><img src="//de.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Abgerufen von „<a dir="ltr" href="https://de.wikipedia.org/w/index.php?title=Build-to-Order&amp;oldid=160324095">https://de.wikipedia.org/w/index.php?title=Build-to-Order&amp;oldid=160324095</a>“					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Wikipedia:Kategorien" title="Wikipedia:Kategorien">Kategorien</a>: <ul><li><a href="/wiki/Kategorie:Distributionslogistik" title="Kategorie:Distributionslogistik">Distributionslogistik</a></li><li><a href="/wiki/Kategorie:Produktionslogistik" title="Kategorie:Produktionslogistik">Produktionslogistik</a></li><li><a href="/wiki/Kategorie:Produktionswirtschaft" title="Kategorie:Produktionswirtschaft">Produktionswirtschaft</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigationsmenü</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Meine Werkzeuge</h3>
+						<ul>
+							<li id="pt-anonuserpage">Nicht angemeldet</li><li id="pt-anontalk"><a href="/wiki/Spezial:Meine_Diskussionsseite" title="Diskussion über Änderungen von dieser IP-Adresse [n]" accesskey="n">Diskussionsseite</a></li><li id="pt-anoncontribs"><a href="/wiki/Spezial:Meine_Beitr%C3%A4ge" title="Eine Liste der Bearbeitungen, die von dieser IP-Adresse gemacht wurden [y]" accesskey="y">Beiträge</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Spezial:Benutzerkonto_anlegen&amp;returnto=Build-to-Order" title="Wir ermutigen dich dazu, ein Benutzerkonto zu erstellen und dich anzumelden. Es ist jedoch nicht zwingend erforderlich.">Benutzerkonto erstellen</a></li><li id="pt-login"><a href="/w/index.php?title=Spezial:Anmelden&amp;returnto=Build-to-Order" title="Anmelden ist zwar keine Pflicht, wird aber gerne gesehen. [o]" accesskey="o">Anmelden</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namensräume</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Build-to-Order"  title="Seiteninhalt anzeigen [c]" accesskey="c">Artikel</a></span></li>
+															<li  id="ca-talk"><span><a href="/wiki/Diskussion:Build-to-Order"  title="Diskussion zum Seiteninhalt [t]" accesskey="t" rel="discussion">Diskussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Varianten</span><a href="#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Ansichten</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/wiki/Build-to-Order" >Lesen</a></span></li>
+															<li id="ca-ve-edit"><span><a href="/w/index.php?title=Build-to-Order&amp;veaction=edit"  title="Diese Seite mit dem VisualEditor bearbeiten [v]" accesskey="v">Bearbeiten</a></span></li>
+															<li id="ca-edit" class=" collapsible"><span><a href="/w/index.php?title=Build-to-Order&amp;action=edit"  title="Diese Seite bearbeiten [e]" accesskey="e">Quelltext bearbeiten</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Build-to-Order&amp;action=history"  title="Frühere Versionen dieser Seite [h]" accesskey="h">Versionsgeschichte</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>Mehr</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Suche</label>
+						</h3>
+
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Wikipedia durchsuchen" title="Durchsuche die Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Spezial:Suche" name="title"/><input type="submit" name="fulltext" value="Volltext" title="Suche nach Seiten, die diesen Text enthalten" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Artikel" title="Gehe direkt zu der Seite mit genau diesem Namen, falls sie vorhanden ist." id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Wikipedia:Hauptseite"  title="Hauptseite"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/wiki/Wikipedia:Hauptseite" title="Hauptseite besuchen [z]" accesskey="z">Hauptseite</a></li><li id="n-topics"><a href="/wiki/Portal:Wikipedia_nach_Themen">Themenportale</a></li><li id="n-alphindex"><a href="/wiki/Spezial:Alle_Seiten">Von A bis Z</a></li><li id="n-randompage"><a href="/wiki/Spezial:Zuf%C3%A4llige_Seite" title="Zufällige Seite aufrufen [x]" accesskey="x">Zufälliger Artikel</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Mitmachen' aria-labelledby='p-Mitmachen-label'>
+			<h3 id='p-Mitmachen-label'>Mitmachen</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Artikel-verbessern"><a href="/wiki/Wikipedia:Beteiligen">Artikel verbessern</a></li><li id="n-Neuerartikel"><a href="/wiki/Hilfe:Neuen_Artikel_anlegen">Neuen Artikel anlegen</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Autorenportal" title="Info-Zentrum über Beteiligungsmöglichkeiten">Autorenportal</a></li><li id="n-help"><a href="/wiki/Hilfe:%C3%9Cbersicht" title="Hilfeseite anzeigen">Hilfe</a></li><li id="n-recentchanges"><a href="/wiki/Spezial:Letzte_%C3%84nderungen" title="Liste der letzten Änderungen in Wikipedia [r]" accesskey="r">Letzte Änderungen</a></li><li id="n-contact"><a href="/wiki/Wikipedia:Kontakt">Kontakt</a></li><li id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_de.wikipedia.org&amp;uselang=de" title="Unterstütze uns">Spenden</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Werkzeuge</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/wiki/Spezial:Linkliste/Build-to-Order" title="Liste aller Seiten, die hierher verlinken [j]" accesskey="j">Links auf diese Seite</a></li><li id="t-recentchangeslinked"><a href="/wiki/Spezial:%C3%84nderungen_an_verlinkten_Seiten/Build-to-Order" rel="nofollow" title="Letzte Änderungen an Seiten, die von hier verlinkt sind [k]" accesskey="k">Änderungen an verlinkten Seiten</a></li><li id="t-specialpages"><a href="/wiki/Spezial:Spezialseiten" title="Liste aller Spezialseiten [q]" accesskey="q">Spezialseiten</a></li><li id="t-permalink"><a href="/w/index.php?title=Build-to-Order&amp;oldid=160324095" title="Dauerhafter Link zu dieser Seitenversion">Permanenter Link</a></li><li id="t-info"><a href="/w/index.php?title=Build-to-Order&amp;action=info" title="Weitere Informationen über diese Seite">Seiten­informationen</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Q1003004" title="Link zum verbundenen Objekt im Datenrepositorium [g]" accesskey="g">Wikidata-Datenobjekt</a></li><li id="t-cite"><a href="/w/index.php?title=Spezial:Zitierhilfe&amp;page=Build-to-Order&amp;id=160324095" title="Hinweise, wie diese Seite zitiert werden kann">Artikel zitieren</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+			<h3 id='p-coll-print_export-label'>Drucken/­exportieren</h3>
+
+			<div class="body">
+									<ul>
+						<li id="coll-create_a_book"><a href="/w/index.php?title=Spezial:Buch&amp;bookcmd=book_creator&amp;referer=Build-to-Order">Buch erstellen</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Spezial:Buch&amp;bookcmd=render_article&amp;arttitle=Build-to-Order&amp;returnto=Build-to-Order&amp;oldid=160324095&amp;writer=rdf2latex">Als PDF herunterladen</a></li><li id="t-print"><a href="/w/index.php?title=Build-to-Order&amp;printable=yes" title="Druckansicht dieser Seite [p]" accesskey="p">Druckversion</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+			<h3 id='p-lang-label'>In anderen Sprachen</h3>
+
+			<div class="body">
+									<ul>
+						<li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/Build-to-Order" title="Build-to-Order – Bulgarisch" lang="bg" hreflang="bg" class="interlanguage-link-target">Български</a></li><li class="interlanguage-link interwiki-en"><a href="https://en.wikipedia.org/wiki/Build_to_order" title="Build to order – Englisch" lang="en" hreflang="en" class="interlanguage-link-target">English</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Make_To_Order" title="Make To Order – Spanisch" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Production_%C3%A0_la_demande" title="Production à la demande – Französisch" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/BTO" title="BTO – Japanisch" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Make_to_order" title="Make to order – Niederländisch" lang="nl" hreflang="nl" class="interlanguage-link-target">Nederlands</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E6%8E%A5%E5%96%AE%E7%94%9F%E7%94%A2" title="接單生產 – Chinesisch" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li>					</ul>
+				<div class='after-portlet after-portlet-lang'><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Q1003004#sitelinks-wikipedia" title="Links auf Artikel in anderen Sprachen bearbeiten" class="wbc-editpage">Links bearbeiten</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> Diese Seite wurde zuletzt am 4. Dezember 2016 um 02:28 Uhr geändert.</li>
+											<li id="footer-info-copyright"><div id="footer-info-copyright-stats"><a class="external" href="https://tools.wmflabs.org/pageviews?pages=Build-to-Order&amp;project=de.wikipedia.org" rel="nofollow">Abrufstatistik</a></div><div id="footer-info-copyright-info"><br />
+Der Text ist unter der Lizenz <a class="internal" href="//de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Commons_Attribution-ShareAlike_3.0_Unported">„Creative Commons Attribution/Share Alike“</a> verfügbar; Informationen zu den Urhebern und zum Lizenzstatus eingebundener Mediendateien (etwa Bilder oder Videos) können im Regelfall durch Anklicken dieser abgerufen werden. Möglicherweise unterliegen die Inhalte jeweils zusätzlichen Bedingungen. Durch die Nutzung dieser Website erklären Sie sich mit den <a class="internal" href="//wikimediafoundation.org/wiki/Nutzungsbedingungen">Nutzungsbedingungen</a> und der <a class="internal" href="//de.wikipedia.org/wiki/Wikipedia:Datenschutz">Datenschutzrichtlinie</a> einverstanden.<br />
+Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.</div></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/de" class="extiw" title="m:Privacy policy/de">Datenschutz</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:%C3%9Cber_Wikipedia" title="Wikipedia:Über Wikipedia">Über Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:Impressum" title="Wikipedia:Impressum">Impressum</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Entwickler</a></li>
+											<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Stellungnahme zu Cookies</a></li>
+											<li id="footer-places-mobileview"><a href="//de.m.wikipedia.org/w/index.php?title=Build-to-Order&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile Ansicht</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":71,"wgHostname":"mw1256"});});</script>
+	</body>
+</html>
