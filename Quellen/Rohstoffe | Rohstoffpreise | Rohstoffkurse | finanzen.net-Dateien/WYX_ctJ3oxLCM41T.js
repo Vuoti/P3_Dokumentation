@@ -1,1 +1,0 @@
-crtg_content = ''; (function(){document.cookie = 'crtg_rta=' + escape(crtg_content) + '; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=assets3.finanzen.net/p-EU9_Wb3L0CHaJ-f0';})();
