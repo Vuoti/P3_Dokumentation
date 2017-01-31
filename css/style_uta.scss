@@ -1,8 +1,6 @@
 
 /*****Geschäftsmodell*****/
-  .item p{
-  margin: 20px;
-}
+
 .slide{
     width: 100%;
   }
@@ -19,6 +17,9 @@
       list-style: none;
   }
 
+.carousel-indicators li.active p{
+  color:#9e9e9e;
+}
 .carousel-inner{
   margin: 50px;
 }
@@ -40,6 +41,10 @@ background-color:#f8f8f8;
 
 .gmodel .mainContent{
   margin-bottom: 20px;
+}
+
+.carousel-indicators{
+      height: 50px;
 }
 
 .carousel-indicators li {
@@ -82,6 +87,7 @@ padding-bottom: 8px;
   padding-top: 5px;
 }
 
+
 /*****Business Modell Canvas*****/
 #DokuTitel-Management{
   background-image: url("../img/DokuTitel/title-management.png");
@@ -103,6 +109,13 @@ margin-top:90px;
 
 /*****Risikomanagement*****/
 .risk{margin-bottom: 30px;}
+.ui-widget-content a {
+    color: #9e9e9e;
+}
+.ui-widget-content a:hover {
+    text-decoration: none;
+    color: #feb405;
+}
 /*****Projektkalkulation*****/
 .dia1{
   margin-left:30px;
@@ -110,3 +123,35 @@ margin-top:90px;
     margin-bottom: 30px;
     margin-top:20px;
   }
+  .kalkulation a:hover{
+    text-decoration: none;
+  }
+  .kalkulation .link-quelle{
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  /*****Marketingstrategien*****/
+  .marketing{
+    margin-bottom: 30px;
+
+  }
+.marketing ul li{
+      margin-bottom: 15px;
+    }
+
+    /***Projektplan***/
+    .projectPlan .link-quelle{
+      text-align: left;
+      margin-bottom: 30px;
+    }
+    /**USP**/
+    .usp a h2:hover{
+    color: #feb904;
+    }
+.usp .link{
+  border-bottom: none;
+}
+.usp .link:after {
+  padding-bottom: 25px;
+}
