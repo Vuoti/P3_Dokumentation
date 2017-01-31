@@ -1,5 +1,9 @@
 %!Adobe-FontList 1.18
+<<<<<<< Updated upstream
 %Locale:0x407
+=======
+%Locale:0x409
+>>>>>>> Stashed changes
 
 %BeginFont
 Handler:DirectoryHandler
@@ -7,6 +11,7 @@ FontType:TrueType
 FontName:Cornish
 FamilyName:Cornish
 StyleName:Regular
+<<<<<<< Updated upstream
 FullName:Cornish
 MenuName:Cornish
 StyleBits:0
@@ -19,6 +24,20 @@ FileModTime:1485791979
 WeightClass:400
 WidthClass:5
 AngleClass:0
+=======
+MenuName:Cornish
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Cornish
+WritingScript:Roman
+OutlineFileName:\Befolk Script.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:142988
+FileModTime:1485795637
+>>>>>>> Stashed changes
 NameArray:0,Mac,4,Cornish
 NameArray:0,Win,1,Cornish
 %EndFont
@@ -29,6 +48,7 @@ FontType:TrueType
 FontName:OpenSans-Extrabold
 FamilyName:Open Sans
 StyleName:Extrabold
+<<<<<<< Updated upstream
 FullName:Open Sans Extrabold
 MenuName:Open Sans Extrabold
 StyleBits:0
@@ -41,6 +61,20 @@ FileModTime:1485791979
 WeightClass:800
 WidthClass:5
 AngleClass:0
+=======
+MenuName:Open Sans Extrabold
+StyleBits:0
+WeightClass:800
+WidthClass:5
+AngleClass:0
+FullName:Open Sans Extrabold
+WritingScript:Roman
+OutlineFileName:\OpenSans-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:222584
+FileModTime:1485795637
+>>>>>>> Stashed changes
 NameArray:0,Mac,4,Open Sans Extrabold
 NameArray:0,Win,1,Open Sans Extrabold
 NameArray:0,Win,16,Open Sans
@@ -52,6 +86,7 @@ FontType:TrueType
 FontName:OpenSans-Italic
 FamilyName:Open Sans
 StyleName:Italic
+<<<<<<< Updated upstream
 FullName:Open Sans Italic
 MenuName:Open Sans
 StyleBits:1
@@ -64,6 +99,20 @@ FileModTime:1485791979
 WeightClass:400
 WidthClass:5
 AngleClass:1
+=======
+MenuName:Open Sans
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Open Sans Italic
+WritingScript:Roman
+OutlineFileName:\OpenSans-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:212896
+FileModTime:1485795637
+>>>>>>> Stashed changes
 NameArray:0,Mac,4,Open Sans Italic
 NameArray:0,Win,1,Open Sans
 %EndFont
@@ -74,6 +123,7 @@ FontType:TrueType
 FontName:OpenSans
 FamilyName:Open Sans
 StyleName:Regular
+<<<<<<< Updated upstream
 FullName:Open Sans
 MenuName:Open Sans
 StyleBits:0
@@ -86,6 +136,20 @@ FileModTime:1485791979
 WeightClass:400
 WidthClass:5
 AngleClass:0
+=======
+MenuName:Open Sans
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Open Sans
+WritingScript:Roman
+OutlineFileName:\OpenSans-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:217360
+FileModTime:1485795637
+>>>>>>> Stashed changes
 NameArray:0,Mac,4,Open Sans
 NameArray:0,Win,1,Open Sans
 %EndFont
@@ -96,6 +160,7 @@ FontType:TrueType
 FontName:OpenSans-Semibold
 FamilyName:Open Sans
 StyleName:Semibold
+<<<<<<< Updated upstream
 FullName:Open Sans Semibold
 MenuName:Open Sans Semibold
 StyleBits:0
@@ -108,6 +173,20 @@ FileModTime:1485791979
 WeightClass:600
 WidthClass:5
 AngleClass:0
+=======
+MenuName:Open Sans Semibold
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Open Sans Semibold
+WritingScript:Roman
+OutlineFileName:\OpenSans-Semibold.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:221328
+FileModTime:1485795637
+>>>>>>> Stashed changes
 NameArray:0,Mac,4,Open Sans Semibold
 NameArray:0,Win,1,Open Sans Semibold
 NameArray:0,Win,16,Open Sans
