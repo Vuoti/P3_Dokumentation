@@ -1,4 +1,4 @@
-var frameNumber = 0, // start video at frame 0
+var frameNumber = 300, // start video at frame 0
   // lower numbers = faster playback
   playbackConst = 300,
   // get page height from video duration
@@ -10,7 +10,8 @@ var frameNumber = 0, // start video at frame 0
 // dynamically set the page height according to video length
 
 vid.addEventListener('loadedmetadata', function() {
-  setHeight.style.height = Math.floor(vid.duration) * playbackConst + "px";
+  //setHeight.style.height = Math.floor(vid.duration) * playbackConst + "px";
+  setHeight.style.height = "6500px";
 });
 
 // Use requestAnimationFrame for smooth playback
