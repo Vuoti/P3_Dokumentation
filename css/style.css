@@ -391,10 +391,11 @@ blockquote:after {
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 }
+/*
 .in-circle:hover {
 	-webkit-clip-path: circle(142px);
 	        clip-path: circle(142px);
-}
+}*/
 
 .videoundbuttondiv{
 	position: relative;
