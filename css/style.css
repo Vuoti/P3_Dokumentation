@@ -1,8 +1,5 @@
 /* FONTS */
 
-a{
-	box-sizing: border-box;
-}
 /* open-sans-300 - latin */
 
 @font-face {
@@ -602,7 +599,17 @@ iframe{
 }
 
 .laura{
-	opacity: 0.01;
+	opacity: 0.015;
 	position: absolute;
 	right: 20px;
+}
+
+.smallBG{
+	height: 310px;
+}
+
+.prozent{
+	position: absolute;
+  margin: -218px 200px;
+	z-index: -5000;
 }

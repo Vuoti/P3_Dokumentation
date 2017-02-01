@@ -46,7 +46,7 @@ button.addEventListener('click', function(event) {
     }
 }, true);
 
-var NavElements = Array('nav-startseite', 'nav-vision', 'nav-recherche', 'nav-steps', 'nav-zielgruppe');
+var NavElements = Array('nav-startseite', 'nav-vision', 'nav-recherche', 'nav-steps', 'nav-zielgruppe', 'nav-addOn', 'nav-system', 'nav-management', 'nav-trailer', 'nav-ausblick', 'nav-danke', 'nav-quellen');
 
 function AddHoverEvents(input){
   var nav = document.getElementById(input);
