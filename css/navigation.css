@@ -396,6 +396,21 @@ ul{
   opacity: 0.1;
 }
 
+.liste{
+  line-height: 64px;
+}
+
+.liste:before{
+  content: '';
+  display: block;
+  height: 0;
+  border-bottom: 1px solid #9e9e9e;
+  position: relative;
+  margin: 0 auto;
+  width: 150px;
+  opacity: 0.1;
+}
+
 .hover-nav-startseite:after{
   content:"";
   left: calc(10% + 80px);
