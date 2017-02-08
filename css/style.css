@@ -614,3 +614,26 @@ iframe{
   margin: -218px 200px;
 	z-index: -5000;
 }
+
+
+#gruppe2{
+	z-index: 10000;
+}
+
+#gruppe2:after{
+	opacity: 0;
+}
+
+#gruppe2:hover:after{
+	z-index: 0;
+	opacity: 1;
+	position: absolute;
+	top: -500px;
+  left: 0;
+  content: "";
+  width: 100%;
+  background-image: url(../img/bestepic.jpg);
+  height: 970px;
+  background-position: center;
+  background-size: cover;
+}
