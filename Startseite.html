@@ -22,9 +22,10 @@
                 <div class="videoContainer">
                     <video loop preload autoplay id="video">
                     <source src="img/stimmung.mp4" type="video/mp4">
-                  </video>
+                    </video>
+                    <img src="img/bestepic.png" id="bestepic" class="hide">
                 </div>
-                <p class="subline subline-fullscreen">Projektdokumentation <span id="gruppe2">Gruppe 2</span></p>
+                  <p class="subline subline-fullscreen" style="z-index:1000;">Projektdokumentation <span id="gruppe2">Gruppe 2</span></p>
                 <div class="title-fullscreen" id="title-Doku"></div>
             </section>
             <div class="new-section-white"></div>
@@ -172,6 +173,19 @@
 
         <script src="js/navigation.js"></script>
         <script src="js/player.js"></script>
+        <script>
+          //Easter Egg
+          var pic = document.getElementById('bestepic');
+          var g2 = document.getElementById("gruppe2");
+          g2.addEventListener('mouseover', function(){
+            pic.className = "";
+            g2.textContent = "BESTE GRUPPE";
+          });
+          g2.addEventListener('mouseout', function(){
+            pic.className = "hide";
+            g2.textContent = "GRUPPE 2";
+          });
+        </script>
 </body>
 
 </html>

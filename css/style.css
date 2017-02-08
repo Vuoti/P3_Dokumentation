@@ -430,9 +430,7 @@ blockquote:after {
 	pointer-events: none;
 }
 
-.hide {
-	opacity: 0;
-}
+
 button:focus {
 	outline: 0;
 }
@@ -615,25 +613,26 @@ iframe{
 	z-index: -5000;
 }
 
-
 #gruppe2{
-	z-index: 10000;
+	z-index: 1000;
+}
+#gruppe2:hover{
+	color: #feb904;
 }
 
-#gruppe2:after{
-	opacity: 0;
-}
-
-#gruppe2:hover:after{
+#bestepic{
 	z-index: 0;
-	opacity: 1;
 	position: absolute;
-	top: -500px;
-  left: 0;
-  content: "";
-  width: 100%;
-  background-image: url(../img/bestepic.jpg);
-  height: 970px;
-  background-position: center;
-  background-size: cover;
+	top: 0;
+	left: 0;
+	content: "";
+	width: 100%;
+	background-image: url(../img/bestepic.jpg);
+	height: 970px;
+	background-position: center;
+	background-size: cover;
+}
+
+.hide {
+	opacity: 0;
 }
